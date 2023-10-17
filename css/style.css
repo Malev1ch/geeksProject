@@ -58,6 +58,17 @@
     line-height: normal;
 }
 
+.geeks-main-section-img {
+  position: relative;
+  display: inline-block;
+}
+
+.geeks-main-section-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .geeks-main-img-bottom-text {
     display: flex;
     width: 1320px;
@@ -147,17 +158,10 @@ font-weight: 700;
 line-height: normal;
 }
 
-.geeks-main-statistics img {
-width: 400px;
-height: 400px;
-transform: rotate(-15deg);
-flex-shrink: 0;
-background: url('/assets/image-eN3RQ7hRT-transformed1.png'), lightgray 50% / cover no-repeat;
-}
-
 .geeks-main-section-three {
     position: relative;
 }
+
 .geeks-main-img-nine {
     position: absolute;
     right: 0;
