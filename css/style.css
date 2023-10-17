@@ -10,7 +10,7 @@
 
 .geeks-top-info-span {
     margin-top: 10%;
-    gap: 10px;
+    gap: 30px;
     display: flex;
 }
 .geeks-go-it {
@@ -24,7 +24,10 @@
     letter-spacing: 8.16px;
     transform: rotate(-3deg);
 }
-
+.geeks-world-it {
+    background-color: transparent;
+    color: black;
+}
 .btn-call-main {
     width: 1200px;
     color: var(--ui-yellow, #FCE900);

@@ -116,16 +116,16 @@ nav {
 
 /* Modal Window button call me top */
 .modal {
-  display: none; /* Скрываем модальное окно по умолчанию */
-  position: fixed; /* Фиксированное позиционирование */
-  z-index: 1; /* Выводим модальное окно на передний план */
-  padding-top: 20px; /* Отступ сверху */
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  padding-top: 20px;
   left: 0;
   top: 0;
-  width: 100%; /* Занимает всю ширину */
-  height: 800px; /* Занимает всю высоту */
-  overflow: auto; /* Добавляем прокрутку, если контент больше окна */
-  background-color: rgba(0, 0, 0, 0.2); /* Цвет фона модального окна с прозрачностью */
+  width: 100%;
+  height: 800px;
+  overflow: auto; 
+  background-color: rgba(0, 0, 0, 0.2); 
 }
 
 .modalWindow-text {
