@@ -1,3 +1,4 @@
+/* Geeks teachers slider styles */
 .slider-container {
   margin: 0 auto;
   overflow: hidden;
@@ -29,3 +30,47 @@
   font-size: 24px;
   color: rgb(221, 218, 20);
 }
+/* Geeks teachers slider styles */
+
+/* Geeks Studios Gallery slider styles */
+
+.slider-container-geeks-studio {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-geeks-studio {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-geeks-studio img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.geeks-prev-button,
+.geeks-next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.60);
+  backdrop-filter: blur(5px);
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.geeks-prev-button {
+  left: 0;
+}
+
+.geeks-next-button {
+  right: 0;
+}
+
+/* Geeks Studios Gallery slider styles */

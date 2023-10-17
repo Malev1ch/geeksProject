@@ -418,9 +418,37 @@ line-height: normal;
 .geeks-main-section-six {
     background-color: white;
     padding: 100px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
-.your-class {
-    display: flex;
+.geeks-teachers {
+    width: 515px;
 }
+
+.geeks-text-standart {
+    width: 781px;
+    color: var(--ui-black, #000);
+    text-align: center;
+    font-family: Onest;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.geeks-guaranted {
+  width: 605px;
+  margin-top: 8%;  
+}
+
+.geeks-guaranted-text {
+    width: 953px;
+    margin-top: 3%;
+}
+
+
 /* section six white */
