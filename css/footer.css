@@ -1,54 +1,46 @@
 .geeks-footer-section {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 20px 50px;
+  background-color:black;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  padding:20px 50px;
 }
-
-
 .geeks-footer-nav-section {
-    display: flex;
-    justify-content: space-between;
+  display:flex;
+  justify-content:space-between;
 }
-
 .geeks-fNav-section-first {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+  display:flex;
+  flex-direction:column;
+  gap:50px;
 }
-
 .geeks-fNav-social-icons {
-    display: flex;
-    gap: 20px;
+  display:flex;
+  gap:20px;
 }
 .geeks-fTexts {
-    color: var(--ui-white, #FEFEFE);
-    font-family: Reforma Grotesk Demi;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;    
+  color: #FEFEFE;
+  font-family:Reforma Grotesk Demi;
+  font-size:32px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
 }
-
 .geeks-fTexts-desc {
-    color: var(--ui-white, #FEFEFE);
-    font-family: Onest;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;   
+  color: #FEFEFE;
+  font-family:Onest;
+  font-size:24px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
+  text-decoration:none;
 }
-
 .geeks-fNav-tel {
-    width: 240px;
+  width:240px;
 }
-
 .geeks-fNav-adress {
-    width: 300px;
+  width:300px;
 }
-
 .geeks-fNav-section-two-media ul li a {
-    line-height: 40px;
+  line-height:40px;
 }

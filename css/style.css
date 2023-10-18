@@ -1,271 +1,245 @@
 .geeks-header-section-first {
-    background-color: yellow;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 30px;
+  background-color:yellow;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-bottom:30px;
 }
-
-
-
 .geeks-top-info-span {
-    margin-top: 10%;
-    gap: 30px;
-    display: flex;
+  margin-top:10%;
+  gap:30px;
+  display:flex;
 }
 .geeks-go-it {
-    color: var(--ui-yellow, #FCE900);
-    background-color: black;
-    font-family: Reforma Grotesk Demi;
-    font-size: 102px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 8.16px;
-    transform: rotate(-3deg);
+  color: #FCE900;
+  background-color:black;
+  font-family: Reforma Grotesk Demi;
+  font-size:102px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
+  letter-spacing:8.16px;
+  transform:rotate(-3deg);
 }
 .geeks-world-it {
-    background-color: transparent;
-    color: black;
+  background-color:transparent;
+  color:black;
 }
 .btn-call-main {
-    width: 1200px;
-    color: var(--ui-yellow, #FCE900);
-    text-align: center;
-    font-family: Reforma Grotesk Demi;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  width:1200px;
+  color: #FCE900;
+  text-align:center;
+  font-family: Reforma Grotesk Demi;
+  font-size:42px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
 }
-
 /* section white second */
 
 .geeks-main-section-two {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 0;
-    gap: 40px;
+  background-color:white;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:100px 0;
+  gap:40px;
 }
-
 .geeks-about {
-    width: 100px;
-    color: var(--ui-yellow, #FCE900);
-    text-align: center;
-    font-family: Reforma Grotesk Demi;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  width:100px;
+  color: #FCE900;
+  text-align:center;
+  font-family: Reforma Grotesk Demi;
+  font-size:32px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
 }
-
 .geeks-main-section-img {
-  position: relative;
-  display: inline-block;
+  position:relative;
+  display:inline-block;
 }
-
 .geeks-main-section-img img {
-  display: block;
-  width: 100%;
-  height: auto;
+  display:block;
+  width:100%;
+  height:auto;
 }
-
 .geeks-main-img-bottom-text {
-    display: flex;
-    width: 1320px;
-    height: 99px;
-    padding: 21px 253px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    background: rgba(0, 0, 0, 0.60);
-    backdrop-filter: blur(10.3125px);
-    color: var(--ui-yellow, #FCE900);
-    text-align: center;
-    font-family: Reforma Grotesk Demi;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    position: relative;
-    margin-top: -7%;
+  display:flex;
+  width:1320px;
+  height:99px;
+  padding:21px 253px;
+  justify-content:center;
+  align-items:center;
+  gap:10px;
+  flex-shrink:0;
+  background:rgba(0,0,0,0.60);
+  backdrop-filter:blur(10.3125px);
+  color: #FCE900;
+  text-align:center;
+  font-family: Reforma Grotesk Demi;
+  font-size:42px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
+  position:relative;
+  margin-top:-7%;
 }
-
 .geeks-main-info-all {
-    width: 1172px;
-    color: var(--ui-black, #000);
-    text-align: center;
-    font-family: Onest;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  width:1172px;
+  color: #000;
+  text-align:center;
+  font-family:Onest;
+  font-size:24px;
+  font-style:normal;
+  font-weight:700;
+  line-height:normal;
 }
 /* section white second */
 
 /* section three yellow */
 
 .geeks-main-section-three {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- padding: 50px 0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:50px 0;
 }
-
 .geeks-orange-span {
-    color: var(--ui-yellow, #FCE900);
-    text-align: center;
-    font-family: Reforma Grotesk Demi;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 0cap;
-    line-height: normal;
-    padding: 10px;
-    }
-
+  color: #FCE900;
+  text-align:center;
+  font-family: Reforma Grotesk Demi;
+  font-size:42px;
+  font-style:normal;
+  font-weight:400;
+  letter-spacing: 0;
+  line-height:normal;
+  padding:10px;
+}
 .geeks-main-statistics {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+  align-items:center;
 }
 .geeks-main-statistics-cards {
-    flex-basis: 25%;
-    color: white;
+  flex-basis:25%;
+  color:white;
 }
-
 .geeks-main-cards-text {
-    color: var(--ui-black, #000);
-    text-align: center;
-    font-family: Reforma Grotesk Demi;
-    font-size: 102px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 8.16px;
+  color: #000;
+  text-align:center;
+  font-family: Reforma Grotesk Demi;
+  font-size:102px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
+  letter-spacing:8.16px;
 }
-
 .geeks-main-cards-students {
-    color: var(--ui-black, #000);
-text-align: center;
-/* onest/cources_38 */
-font-family: Onest;
-font-size: 38px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  color: #000;
+  text-align:center;
+font-family:Onest;
+  font-size:38px;
+  font-style:normal;
+  font-weight:700;
+  line-height:normal;
 }
-
 .geeks-main-section-three {
-    position: relative;
+  position:relative;
 }
-
 .geeks-main-img-nine {
-    position: absolute;
-    right: 0;
-    top: 0;
+  position:absolute;
+  right:0;
+  top:0;
 }
-
 .geeks-main-img-six {
-     position: absolute;
-    left: 0;
-    bottom: 0;   
+  position:absolute;
+  left:0;
+  bottom:0;
 }
-
 /* section three yellow */
 
 /* section fourth white */
 
 .geeks-main-section-fourth {
-    background: var(--ui-white, #FEFEFE);
-    
+  background: #FEFEFE;
 }
-
 /* section fourth feedbacks cards */
 
 .geeks-main-section-fourth {
-    padding: 100px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+  padding:100px 0;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:50px;
 }
 .geeks-select-me {
-    color: var(--ui-yellow, #FCE900);
-    text-align: center;
-    font-family: Reforma Grotesk Demi;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #FCE900;
+  text-align:center;
+  font-family: Reforma Grotesk Demi;
+  font-size:42px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
 }
 .geeks-feedbacks-cards {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background: var(--black, #000);
-    flex-basis: 25%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  background: #000;
+  flex-basis:25%;
 }
-
-
 .geeks-main-feedbacks-card-block {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+  align-items:center;
 }
-
 .geeks-feedbacks-cards:nth-child(4n) {
-    margin-bottom: 100px;
+  margin-bottom:100px;
 }
-
 .geeks-feedbacks-cards:nth-child(6n) {
-    margin-bottom: 100px;
+  margin-bottom:100px;
 }
-
 .geeks-feedbacks-cards {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
+  display:flex;
+  flex-direction:column;
+  padding:30px;
 }
 .geeks-feedbacks-top-rel {
-    display: flex;
-    gap: 12rem;
+  display:flex;
+  gap:12rem;
 }
 .geeks-feedbacks-desc {
-    width: 353px;
-    color: var(--ui-white, #FEFEFE);
-    font-family: Onest;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  width:353px;
+  color: #FEFEFE;
+  font-family: Onest;
+  font-size:18px;
+  font-style:normal;
+  font-weight:500;
+  line-height:normal;
 }
-
 .geeks-feedback-number {
-    color: var(--Yellow, #FCE900);
-    font-family: Reforma Grotesk Demi;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;    
+  color: #FCE900;
+  font-family: Reforma Grotesk Demi;
+  font-size:42px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
 }
 .geeks-feedback-select {
-    display: flex;
-    gap: 20px;
+  display:flex;
+  gap:20px;
 }
 .geeks-feedback-select img {
-    width: 33px;
-    height: 34px;
-    flex-shrink: 0;   
+  width:33px;
+  height:34px;
+  flex-shrink:0;
 }
 /* section fourth feedbacks cards */
 
@@ -273,34 +247,31 @@ line-height: normal;
 /* section fourth youtube shorts feedback */
 
 .geeks-main-youshorts-cards {
-    display: flex;
-    gap: 30px;
-    padding: 50px 0;
+  display:flex;
+  gap:30px;
+  padding:50px 0;
 }
-
 .geeks-shorts-img {
-    position: relative;
+  position:relative;
 }
-
 .geeks-icon-shorts {
-    position: absolute;
-    right: 35%;
-    top: 40%;
+  position:absolute;
+  right:35%;
+  top:40%;
 }
 /* section fourth youtube shorts feedback */
 
 /* section fourth work company */
 .geeks-work-company-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    justify-content: center;
-    align-items: center;
-    padding: 80px;
-
+  display:flex;
+  flex-wrap:wrap;
+  gap:60px;
+  justify-content:center;
+  align-items:center;
+  padding:80px;
 }
 .geeks-work-company-cards img {
-    flex-basis: 16%;
+  flex-basis:16%;
 }
 /* section fourth work company */
 
@@ -310,311 +281,282 @@ line-height: normal;
 /* section five yellow */
 
 .geeks-main-section-five-yellow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 60px;
-    gap: 50px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:30px 60px;
+  gap:50px;
 }
 .geeks-five-sec-course-cards-block {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    justify-content: center;
-    align-items: center;
+  display:flex;
+  flex-wrap:wrap;
+  gap:60px;
+  justify-content:center;
+  align-items:center;
 }
-
 .geeks-course-cards {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+  background-color:black;
+  display:flex;
+  flex-direction:column;
+  gap:50px;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
-
 .geeks-course-cards-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
 }
-
 .geeks-course-cards-img img {
-    width: 197px;
-    height: 197px;
+  width:197px;
+  height:197px;
 }
 .course-cards-span-block {
-    display: flex;
-    gap: 10px;
-    justify-content: flex-start;
-    width: 100%;
-    
+  display:flex;
+  gap:10px;
+  justify-content:flex-start;
+  width:100%;
 }
 .geeks-cards-span-color {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background-color: green;
+  width:16px;
+  height:16px;
+  border-radius:50%;
+  background-color:green;
 }
 .geeks-cards-span-color:nth-child(1) {
-    background-color: red;
+  background-color:red;
 }
 .geeks-cards-span-color:nth-child(2) {
-    background-color: yellow;
+  background-color:yellow;
 }
-
 .geeks-course-cards-info {
-    color: var(--ui-grey-dop-green, #9ABE3D);
-    text-align: center;
-    font-family: Reforma Grotesk Demi;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #9ABE3D;
+  text-align:center;
+  font-family: Reforma Grotesk Demi;
+  font-size:42px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
 }
 .course-cards-desc {
-    color: white;
+  color:white;
 }
-
 .course-cards-price {
-    width: 346.686px;
-    color: #FEFEFE;
-    text-align: center;
-    font-family: Onest;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  width:346.686px;
+  color: #FEFEFE;
+  text-align:center;
+  font-family:Onest;
+  font-size:24px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
 }
-
 .geeks-course-btn-go {
-    display: flex;
-    width: 231px;
-    height: 71px;
-    padding: 14px 82px;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    border: 1px solid white;
-    color: var(--ui-white, #FEFEFE);
-    font-family: Onest;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;   
+  display:flex;
+  width:231px;
+  height:71px;
+  padding:14px 82px;
+  justify-content:center;
+  align-items:center;
+  background-color:transparent;
+  border:1px solid white;
+  color: #FEFEFE;
+  font-family:Onest;
+  font-size:24px;
+  font-style:normal;
+  font-weight:700;
+  line-height:normal;
 }
-
 /* section five yellow */
 
 
 /* section six white */
 
 .geeks-main-section-six {
-    background-color: white;
-    padding: 100px 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+  background-color:white;
+  padding:100px 30px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:30px;
 }
-
 .geeks-text-standart {
-    width: 781px;
-    color: var(--ui-black, #000);
-    text-align: center;
-    font-family: Onest;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  width:781px;
+  color: #000;
+  text-align:center;
+  font-family:Onest;
+  font-size:24px;
+  font-style:normal;
+  font-weight:700;
+  line-height:normal;
 }
-
-
 .geeks-guaranted {
-  margin-top: 8%;  
+  margin-top:8%;
 }
-
 .geeks-guaranted-text {
-    width: 953px;
-    margin-top: 3%;
+  width:953px;
+  margin-top:3%;
 }
-
-.geeks-sert-title {
-}
-
 .geeks-sert-text {
-    width: 950px;
+  width:950px;
 }
-
 .geeks-main-sert-block {
-    display: flex;
-    gap: 30px;
+  display:flex;
+  gap:30px;
 }
-
-
-
 .geeks-faqs {
-    margin-top: 5%;
+  margin-top:5%;
 }
 /* section six white */
 
 
 /* spoiler second variants */
 
-.accordion-item{
-  background-color: #ffffff;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  margin-bottom: 5px;
+.accordion-item {
+  background-color:#ffffff;
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+  margin-bottom:5px;
 }
-
 .geeks-spoiler-block-accordion {
-    margin-top: 5%;
+  margin-top:5%;
 }
 .geeks-spoiler-block-accordion button {
-  position: relative;
-  display: block;
-  text-align: left;
-  width: 100%;
-  padding: 1em 0;
-  font-size: 1.15rem;
-  font-weight: 400;
-  border: none;
-  background: none;
-  outline: none;
+  position:relative;
+  display:block;
+  text-align:left;
+  width:100%;
+  padding:1em 0;
+  font-size:1.15rem;
+  font-weight:400;
+  border:none;
+  background:none;
+  outline:none;
 }
-.geeks-spoiler-block-accordion button:hover, .geeks-spoiler-block-accordion button:focus {
-  cursor: pointer;
-  color: #0a0a0a;
+.geeks-spoiler-block-accordion button:hover,.geeks-spoiler-block-accordion button:focus {
+  cursor:pointer;
+  color:#0a0a0a;
 }
-.geeks-spoiler-block-accordion button:hover::after, .geeks-spoiler-block-accordion button:focus::after {
-  cursor: pointer;
-  color: #020202;
-  border: 1px solid #020202;
+.geeks-spoiler-block-accordion button:hover::after,.geeks-spoiler-block-accordion button:focus::after {
+  cursor:pointer;
+  color:#020202;
+  border:1px solid #020202;
 }
 .geeks-spoiler-block-accordion button .accordion-title {
-  padding: 1em 1.5em 1em 0;
-  font-family: Onest;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  padding:1em 1.5em 1em 0;
+  font-family:Onest;
+  font-size:28px;
+  font-style:normal;
+  font-weight:700;
+  line-height:normal;
 }
 .geeks-spoiler-block-accordion button .icon {
-  display: inline-block;
-  position: absolute;
-  top: 18px;
-  right: 0;
-  width: 22px;
-  height: 22px;
-  border: 1px solid;
-  border-radius: 22px;
+  display:inline-block;
+  position:absolute;
+  top:18px;
+  right:0;
+  width:22px;
+  height:22px;
+  border:1px solid;
+  border-radius:22px;
 }
 .geeks-spoiler-block-accordion button .icon::before {
-  display: block;
-  position: absolute;
-  content: '';
-  top: 9px;
-  left: 5px;
-  width: 10px;
-  height: 2px;
-  background: currentColor;
+  display:block;
+  position:absolute;
+  content:'';
+  top:9px;
+  left:5px;
+  width:10px;
+  height:2px;
+  background:currentColor;
 }
 .geeks-spoiler-block-accordion button .icon::after {
-  display: block;
-  position: absolute;
-  content: '';
-  top: 5px;
-  left: 9px;
-  width: 2px;
-  height: 10px;
-  background: currentColor;
+  display:block;
+  position:absolute;
+  content:'';
+  top:5px;
+  left:9px;
+  width:2px;
+  height:10px;
+  background:currentColor;
 }
 .geeks-spoiler-block-accordion button[aria-expanded='true'] .icon::after {
-  width: 0;
+  width:0;
 }
 .geeks-spoiler-block-accordion button[aria-expanded='true'] + .accordion-content {
-  opacity: 1;
-  max-height: 9em;
-  transition: all 200ms linear;
-  will-change: opacity, max-height;
+  opacity:1;
+  max-height:9em;
+  transition:all 200ms linear;
+  will-change:opacity,max-height;
 }
 .geeks-spoiler-block-accordion .accordion-content {
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: opacity 200ms linear, max-height 200ms linear;
-  will-change: opacity, max-height;
+  opacity:0;
+  max-height:0;
+  overflow:hidden;
+  transition:opacity 200ms linear,max-height 200ms linear;
+  will-change:opacity,max-height;
 }
 .geeks-spoiler-block-accordion .accordion-content p {
-  font-family: Onest;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  font-family:Onest;
+  font-size:22px;
+  font-style:normal;
+  font-weight:700;
+  line-height:normal;
 }
 /* spoiler second variants */
 
 
 .geeks-consultation {
-    margin-top: 5%;
+  margin-top:5%;
 }
-
 .geeks-main-consultation-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:30px;
 }
-
 .inputs-consultation-block {
-    display: flex;
-    gap: 40px;
-    margin-top: 50px;
+  display:flex;
+  gap:40px;
+  margin-top:50px;
 }
-
 .inputs-consultation-block input {
-  display: flex;
-  width: 410px;
-  height: 70px;
-  padding: 20px;
-  align-items: center;
-  gap: 2px;
-  background: var(--ui-black, #000);
-  color: white;
-  font-family: Onest;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;  
+  display:flex;
+  width:410px;
+  height:70px;
+  padding:20px;
+  align-items:center;
+  gap:2px;
+  background:var(--ui-black,#000);
+  color:white;
+  font-family:Onest;
+  font-size:24px;
+  font-style:normal;
+  font-weight:700;
+  line-height:normal;
 }
-
-
 .inputs-consultation-block input::placeholder {
-    color: #57585A;
-    text-align: justify;
-    font-family: Onest;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+  color:#57585A;
+  text-align:justify;
+  font-family:Onest;
+  font-size:24px;
+  font-style:normal;
+  font-weight:700;
+  line-height:normal;
 }
-
 .btn-consultation {
-    width: 410px;
-    border: none;
+  width:410px;
+  border:none;
 }
-
 .consultation-block-text {
-    width: 420px;
-    text-align: center;
-    font-family: Onest;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal; 
-    margin-bottom: 5%;
+  width:420px;
+  text-align:center;
+  font-family: Onest;
+  font-size:18px;
+  font-style:normal;
+  font-weight:500;
+  line-height:normal;
+  margin-bottom:5%;
 }

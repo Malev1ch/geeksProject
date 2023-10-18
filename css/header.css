@@ -1,234 +1,220 @@
 .geeks-main-btn {
-  width: 100px;
-  height: 50px;
-  background-color: black;
-  color: var(--ui-yellow, #fce900);
-  text-align: center;
-  font-family: Reforma Grotesk Demi;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  width:100px;
+  height:50px;
+  background-color:black;
+  color: #fce900;
+  text-align:center;
+  font-family:Reforma Grotesk Demi;
+  font-size:22px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
 }
-
 .geeks-header-main {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid;
-  padding: 10px 50px;
-  position: fixed;
-  width: 1440px;
-  backdrop-filter: blur(8px);
-  z-index: 999;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid;
+  padding:10px 50px;
+  position:fixed;
+  width:1440px;
+  backdrop-filter:blur(8px);
+  z-index:999;
 }
-
 .geeks-header-nav-links ul {
-  display: flex;
-  gap: 20px;
-  list-style-type: none;
+  display:flex;
+  gap:20px;
+  list-style-type:none;
 }
 .geeks-header-nav-btns {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+  display:flex;
+  gap:20px;
+  align-items:center;
 }
-
 .geeks-header-nav-drop-down {
-  background-color: black;
-  color: #fce900;
-  width: 100px;
-  height: 50px;
-  display: flex;
-  align-items: center;
+  background-color:black;
+  color:#fce900;
+  width:100px;
+  height:50px;
+  display:flex;
+  align-items:center;
 }
-
 .header-links-course {
-  list-style-type: none;
-  text-decoration: none;
-  color: var(--ui-black, #000);
-  text-align: center;
-  font-family: Reforma Grotesk Demi;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  list-style-type:none;
+  text-decoration:none;
+  color: #000;
+  text-align:center;
+  font-family:Reforma Grotesk Demi;
+  font-size:22px;
+  font-style:normal;
+  font-weight:400;
+  line-height:normal;
 }
 .drop-down-right {
-  display: flex;
+  display:flex;
 }
 /* drop down menu */
 nav {
-  display: table;
+  display:table;
 }
 nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  list-style:none;
+  margin:0;
+  padding:0;
 }
 .drop-down-right:after {
-  display: table;
-  clear: both;
+  display:table;
+  clear:both;
 }
 .drop-down-right > li {
-  width: 25%;
-  float: left;
-  position: relative;
-  font-family: "Open Sans", sans-serif;
+  width:25%;
+  float:left;
+  position:relative;
+  font-family:"Open Sans",sans-serif;
 }
 .drop-down-right > li > a {
-  font-weight: bold;
-  padding: 15px 10px;
+  font-weight:bold;
+  padding:15px 10px;
 }
 .submenu {
-  background: #273037;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  z-index: 5;
-  width: 100px;
-  opacity: 0;
-  transform: scaleY(0);
-  transform-origin: 0 0;
-  transition: 0.5s ease-in-out;
+  background:#273037;
+  position:absolute;
+  left:0;
+  top:100%;
+  z-index:5;
+  width:100px;
+  opacity:0;
+  transform:scaleY(0);
+  transform-origin:0 0;
+  transition:0.5s ease-in-out;
 }
 .submenu a {
-  color: white;
-  text-align: left;
-  padding: 12px 15px;
-  font-size: 13px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color:white;
+  text-align:left;
+  padding:12px 15px;
+  font-size:13px;
+  border-bottom:1px solid rgba(255,255,255,0.1);
 }
 .submenu li:last-child a {
-  border-bottom: none;
+  border-bottom:none;
 }
 .drop-down-right > li:hover .submenu {
-  opacity: 1;
-  transform: scaleY(1);
+  opacity:1;
+  transform:scaleY(1);
 }
-
 .submenu-link {
-  display: flex;
-  gap: 5px;
-  color: yellow;
+  display:flex;
+  gap:5px;
+  color:yellow;
 }
 /* drop down menu */
 
 /* Modal Window button call me top */
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 20px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 800px;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.2);
+  display:none;
+  position:fixed;
+  z-index:1;
+  padding-top:20px;
+  left:0;
+  top:0;
+  width:100%;
+  height:800px;
+  overflow:auto;
+  background-color:rgba(0,0,0,0.2);
 }
-
 .modalWindow-text {
-  width: 458px;
-  font-family: Onest;
-  font-size: 24px;
-  font-style: normal;
-  line-height: normal;
+  width:458px;
+  font-family:Onest;
+  font-size:24px;
+  font-style:normal;
+  line-height:normal;
 }
-
 .modalWindow-text-block {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  align-items: flex-start;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  align-items:flex-start;
 }
 .title-modalWindow {
-  color: var(--ui-black, #000);
-  font-weight: 700;
+  color: #000;
+  font-weight:700;
 }
 .descr-modalWindow {
-  color: var(--ui-grey-grey-1, #57585a);
-  font-weight: 400;
-  width: 320px;
-}
-
-.modal-content {
-  background-color: rgba(255, 255, 255, 0.75);
-  margin: auto; /* Центрируем модальное окно по горизонтали */
-  padding: 20px;
-  width: 100%;
-  height: 700px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  backdrop-filter: blur(15px);
-}
-
-.modalWindow-content {
-  display: flex;
-}
-
-.modalWindow-inputs {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.modalWindow-inputs input {
-  display: flex;
-  width: 458px;
-  height: 70px;
-  padding: 20px;
-  align-items: center;
-  gap: 2px;
-  background: var(--ui-black, #000);
-  color: white;
-  font-family: Onest;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.modalWindow-inputs input::placeholder {
   color: #57585a;
-  text-align: justify;
-  font-family: Onest;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-weight:400;
+  width:320px;
 }
-
+.modal-content {
+  background-color:rgba(255,255,255,0.75);
+  margin:auto;
+  /* Центрируем модальное окно по горизонтали */
+  padding:20px;
+  width:100%;
+  height:700px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  backdrop-filter:blur(15px);
+}
+.modalWindow-content {
+  display:flex;
+}
+.modalWindow-inputs {
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.modalWindow-inputs input {
+  display:flex;
+  width:458px;
+  height:70px;
+  padding:20px;
+  align-items:center;
+  gap:2px;
+  background:var(--ui-black,#000);
+  color:white;
+  font-family:Onest;
+  font-size:24px;
+  font-style:normal;
+  font-weight:700;
+  line-height:normal;
+}
+.modalWindow-inputs input::placeholder {
+  color:#57585a;
+  text-align:justify;
+  font-family:Onest;
+  font-size:24px;
+  font-style:normal;
+  font-weight:700;
+  line-height:normal;
+}
 .btn-send-modalWindow {
-  display: flex;
-  width: 936px;
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
-  background: var(--ui-yellow, #fce900);
-  color: var(--ui-black, #000);
-  font-family: Onest;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  display:flex;
+  width:936px;
+  padding:20px;
+  justify-content:center;
+  align-items:center;
+  background:var(--ui-yellow,#fce900);
+  color: #000;
+  font-family:Onest;
+  font-size:24px;
+  font-style:normal;
+  font-weight:700;
+  line-height:normal;
 }
 .close {
-  position: absolute;
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  right: 0;
-  top: 0;
+  position:absolute;
+  color:#aaa;
+  float:right;
+  font-size:28px;
+  font-weight:bold;
+  right:0;
+  top:0;
 }
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
+.close:hover,.close:focus {
+  color:black;
+  text-decoration:none;
+  cursor:pointer;
 }
 /* Modal Window button call me top */
