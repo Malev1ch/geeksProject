@@ -5,9 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
-  
-
+  gap: 20px; 
 }
 
 .slider {
@@ -74,3 +72,108 @@
 }
 
 /* Geeks Studios Gallery slider styles */
+
+.geeks-events-title {
+  margin-top: 10%;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 2%;
+}
+.gallery-item {
+    flex-basis: 32.7%;
+    margin-bottom: 6px;
+    opacity: .85;
+    cursor: pointer;
+}
+.gallery-item:hover {
+    opacity: 1;
+}
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-content {
+    font-size: .8em;
+}
+
+.lightbox {
+    position: fixed;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;              
+    overflow: auto;
+    top: 0;
+    left: 0;
+}
+.lightbox-content {
+    position: relative;
+    width: 70%;
+    height: 70%;
+    margin: 5% auto;
+}
+.lightbox-content img {
+    border-radius: 7px;
+    box-shadow: 0 0 3px 0 rgba(225, 225, 225, .25);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.lightbox-prev,
+.lightbox-next {
+    position: absolute;
+    background-color: rgba(247, 240, 240, 0);
+    color: #fff;
+    padding: 7px;
+    top: 45%;
+    cursor: pointer;
+}
+.lightbox-prev {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 20px;
+  background: url('/assets/arrow-left.svg') no-repeat;
+}
+.lightbox-next {
+    right: 0;
+    height: 100%;
+    top: 0;
+    width: 20px;
+    background: url('/assets/arrow-right.svg');
+}
+.lightbox-prev:hover,
+.lightbox-next:hover {
+    opacity: .8;
+}
+
+.gallery-geeks-prev-button,
+.gallery-geeks-next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.60);
+  backdrop-filter: blur(5px);
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.gallery-geeks-prev-button {
+  left: 0;
+}
+
+.gallery-geeks-next-button {
+  right: 0;
+}

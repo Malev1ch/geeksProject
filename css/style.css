@@ -123,6 +123,7 @@
     font-size: 42px;
     font-style: normal;
     font-weight: 400;
+    letter-spacing: 0cap;
     line-height: normal;
     padding: 10px;
     }
@@ -237,7 +238,7 @@ line-height: normal;
 }
 .geeks-feedbacks-top-rel {
     display: flex;
-    gap: 10%;
+    gap: 12rem;
 }
 .geeks-feedbacks-desc {
     width: 353px;
@@ -307,10 +308,6 @@ line-height: normal;
 
 
 /* section five yellow */
-
-.geeks-courses {
-    width: 270px;
-}
 
 .geeks-main-section-five-yellow {
     display: flex;
@@ -424,10 +421,6 @@ line-height: normal;
     gap: 30px;
 }
 
-.geeks-teachers {
-    width: 515px;
-}
-
 .geeks-text-standart {
     width: 781px;
     color: var(--ui-black, #000);
@@ -441,7 +434,6 @@ line-height: normal;
 
 
 .geeks-guaranted {
-  width: 605px;
   margin-top: 8%;  
 }
 
@@ -450,5 +442,179 @@ line-height: normal;
     margin-top: 3%;
 }
 
+.geeks-sert-title {
+}
 
+.geeks-sert-text {
+    width: 950px;
+}
+
+.geeks-main-sert-block {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.geeks-faqs {
+    margin-top: 5%;
+}
 /* section six white */
+
+
+/* spoiler second variants */
+
+.accordion-item{
+  background-color: #ffffff;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-bottom: 5px;
+}
+
+.geeks-spoiler-block-accordion {
+    margin-top: 5%;
+}
+.geeks-spoiler-block-accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+.geeks-spoiler-block-accordion button:hover, .geeks-spoiler-block-accordion button:focus {
+  cursor: pointer;
+  color: #0a0a0a;
+}
+.geeks-spoiler-block-accordion button:hover::after, .geeks-spoiler-block-accordion button:focus::after {
+  cursor: pointer;
+  color: #020202;
+  border: 1px solid #020202;
+}
+.geeks-spoiler-block-accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+  font-family: Onest;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.geeks-spoiler-block-accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+.geeks-spoiler-block-accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.geeks-spoiler-block-accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+.geeks-spoiler-block-accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.geeks-spoiler-block-accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.geeks-spoiler-block-accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.geeks-spoiler-block-accordion .accordion-content p {
+  font-family: Onest;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* spoiler second variants */
+
+
+.geeks-consultation {
+    margin-top: 5%;
+}
+
+.geeks-main-consultation-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.inputs-consultation-block {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.inputs-consultation-block input {
+  display: flex;
+  width: 410px;
+  height: 70px;
+  padding: 20px;
+  align-items: center;
+  gap: 2px;
+  background: var(--ui-black, #000);
+  color: white;
+  font-family: Onest;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;  
+}
+
+
+.inputs-consultation-block input::placeholder {
+    color: #57585A;
+    text-align: justify;
+    font-family: Onest;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-consultation {
+    width: 410px;
+    border: none;
+}
+
+.consultation-block-text {
+    width: 420px;
+    text-align: center;
+    font-family: Onest;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    margin-bottom: 5%;
+}
