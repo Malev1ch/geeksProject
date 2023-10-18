@@ -23,7 +23,7 @@
   z-index: 999;
 }
 
-.geeks-header-nav-links {
+.geeks-header-nav-links ul {
   display: flex;
   gap: 20px;
   list-style-type: none;

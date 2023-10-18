@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Geeks Project</title>
-    <link rel="stylesheet" href="/css/core.css" />
-    <link rel="stylesheet" href="/css/header.css" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/footer.css" />
-    <link rel="stylesheet" href="/css/slider.css" />
-    <link rel="stylesheet" href="/css/mobile.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="geeks-header-main">
-        <div class="geeks-header-logo">
-          <img src="/assets/logo.svg" alt="" />
-        </div>
-        <div class="geeks-header-nav-links">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geeks Project</title>
+  <link rel="stylesheet" href="/css/core.css" />
+  <link rel="stylesheet" href="/css/header.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/footer.css" />
+  <link rel="stylesheet" href="/css/slider.css" />
+  <link rel="stylesheet" href="/css/mobile.css" />
+  <link rel="stylesheet" href="/css/course-modal.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="geeks-header-main">
+      <div class="geeks-header-logo">
+        <a href="/"><img src="/assets/logo.svg" alt="" /></a>
+      </div>
+      <div class="geeks-header-nav-links">
+        <ul>
           <li class="header-links-course">
             <a href="#about-us" class="header-links-course">О нас</a>
           </li>
@@ -32,762 +33,722 @@
             <a href="#geeks-coursess" class="header-links-course">Наши курсы</a>
           </li>
           <li class="header-links-course">
-            <a href="#3" class="header-links-course">Стажировка</a>
+            <a href="#go-trial" class="header-links-course">Стажировка</a>
           </li>
           <li class="header-links-course">
-            <a href="#1" class="header-links-course">FAQ</a>
+            <a href="#go-faq" class="header-links-course">FAQ</a>
           </li>
-        </div>
-        <div class="geeks-header-nav-btns">
-          <a href="tel:+996995804080" class="header-links-course"
-            >+996 (995)-80-40-80</a
-          >
-          <!-- Button call modal window -->
-          <button class="geeks-main-btn call-me-btn">связаться</button>
-          <!-- Button call modal window -->
+        </ul>
+      </div>
+      <div class="geeks-header-nav-btns">
+        <a href="tel:+996995804080" class="header-links-course">+996 (995)-80-40-80</a>
+        <!-- Button call modal window -->
+        <button class="geeks-main-btn call-me-btn">связаться</button>
+        <!-- Button call modal window -->
 
-          <!-- Modal Window call me top -->
-          <div id="myModal" class="modal">
-            <div class="modal-content">
-              <div class="modalWindow-content">
-                <span class="close"
-                  ><svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="44"
-                    height="44"
-                    viewBox="0 0 44 44"
-                    fill="none"
-                  >
-                    <rect
-                      x="8.56494"
-                      y="11.3934"
-                      width="4"
-                      height="34"
-                      transform="rotate(-45 8.56494 11.3934)"
-                      fill="black"
-                    />
-                    <rect
-                      x="11.3933"
-                      y="35.4351"
-                      width="4"
-                      height="34"
-                      transform="rotate(-135 11.3933 35.4351)"
-                      fill="black"
-                    /></svg
-                ></span>
-                <div class="modalWindow-text-block">
-                  <p class="modalWindow-text title-modalWindow">
-                    Позвоните, или оставьте ваши контактные данные, мы свяжемся
-                    с вами в ближайшее время.
-                  </p>
-                  <p class="modalWindow-text descr-modalWindow">
-                    Вы так же можете получить консультацию позвонив нам, с 12:00
-                    до 20:00.
-                  </p>
-                  <a
-                    href="tel:+996995804080"
-                    class="header-links-course"
-                    class="modalWindow-text"
-                    >+996 (995)-80-40-80</a
-                  >
-                </div>
-                <div class="modalWindow-inputs">
-                  <input type="text" placeholder="Имя" />
-                  <input type="text" placeholder="Номер телефона" />
-                </div>
+        <!-- Modal Window call me top -->
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <div class="modalWindow-content">
+              <span class="close"><svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                  fill="none">
+                  <rect x="8.56494" y="11.3934" width="4" height="34" transform="rotate(-45 8.56494 11.3934)"
+                    fill="black" />
+                  <rect x="11.3933" y="35.4351" width="4" height="34" transform="rotate(-135 11.3933 35.4351)"
+                    fill="black" />
+                </svg></span>
+              <div class="modalWindow-text-block">
+                <p class="modalWindow-text title-modalWindow">
+                  Позвоните, или оставьте ваши контактные данные, мы свяжемся
+                  с вами в ближайшее время.
+                </p>
+                <p class="modalWindow-text descr-modalWindow">
+                  Вы так же можете получить консультацию позвонив нам, с 12:00
+                  до 20:00.
+                </p>
+                <a href="tel:+996995804080" class="header-links-course" class="modalWindow-text">+996 (995)-80-40-80</a>
               </div>
+              <div class="modalWindow-inputs">
+                <input type="text" placeholder="Имя" />
+                <input type="text" placeholder="Номер телефона" />
+              </div>
+            </div>
 
-              <button class="btn-send-modalWindow">Отправить</button>
-              <p class="send-personal-data">
-                Нажимая на кнопку вы соглашаетесь на обработку персональных
-                данных
-              </p>
-            </div>
-          </div>
-          <!-- Modal Window call me top -->
-          <div class="geeks-header-nav-drop-down">
-            <nav>
-              <ul class="drop-down-right">
-                <li>
-                  <a href="#" class="submenu-link header-links-course"
-                    ><img src="/assets/change_lang.svg" alt="" />РУС</a
-                  >
-                  <ul class="submenu">
-                    <li><a href="">KG</a></li>
-                    <li><a href="">RU</a></li>
-                    <li><a href="">ENG</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
-      </div>
-      <div class="geeks-header-section-first" id="1">
-        <div class="geeks-top-info-span">
-          <span class="geeks-go-it"> ТВОЁ БУДЕЩЕЕ </span>
-          <span class="geeks-go-it geeks-world-it"> В МИРЕ IT </span>
-        </div>
-        <img src="/assets/geeks_course.svg" alt="" />
-        <button class="geeks-main-btn btn-call-main">Связаться</button>
-      </div>
-      <div class="geeks-main-section-two" id="about-us">
-        <span class="geeks-go-it geeks-orange-span"> О Нас </span>
-        <div class="geeks-main-section-img">
-          <img src="/assets/image_founders.svg" alt="" />
-          <span class="geeks-main-img-bottom-text"
-            >Основатели GEEKS - Айдар Бакиров и Нургазы Сулайманов</span
-          >
-        </div>
-        <p class="geeks-main-info-all">
-          IT-Курсы GEEKS были основаны в 2018-ом году в Бишкеке с целью дать
-          возможность каждому человеку, даже без опыта в технологиях,
-          гарантированно освоить IT-профессию.
-        </p>
-      </div>
-
-      <div class="geeks-main-section-three">
-        <img src="/assets/nine.png" alt="" class="geeks-main-img-nine" />
-        <div class="geeks-go-it geeks-orange-span">GEEKS в цифрах</div>
-        <div class="geeks-main-statistics">
-          <div class="geeks-main-statistics-cards">
-            <p class="geeks-main-cards-text">1200+</p>
-            <p class="geeks-main-cards-students">студентов</p>
-          </div>
-          <div class="geeks-main-statistics-cards">
-            <p class="geeks-main-cards-text">1000+</p>
-            <p class="geeks-main-cards-students">выпускников</p>
-          </div>
-          <div class="geeks-main-statistics-cards">
-            <p class="geeks-main-cards-text">50+</p>
-            <p class="geeks-main-cards-students">преподавателей</p>
-          </div>
-          <div class="geeks-main-statistics-cards">
-            <p class="geeks-main-cards-text">70+</p>
-            <p class="geeks-main-cards-students">менторов</p>
-          </div>
-          <div class="geeks-main-statistics-cards">
-            <p class="geeks-main-cards-text">50+</p>
-            <p class="geeks-main-cards-students">сотрудников</p>
-          </div>
-          <div class="geeks-main-statistics-cards">
-            <p class="geeks-main-cards-text">3+</p>
-            <p class="geeks-main-cards-students">города</p>
-          </div>
-        </div>
-        <img src="/assets/six.png" alt="" class="geeks-main-img-six" />
-      </div>
-      <div class="geeks-main-section-fourth">
-        <span class="geeks-go-it geeks-orange-span">Почему выбирают нас?</span>
-        <div class="geeks-main-feedbacks-card-block">
-          <div class="geeks-feedbacks-cards">
-            <div class="geeks-feedbacks-top-rel">
-              <span class="geeks-feedback-number">#1</span>
-              <div class="geeks-feedback-select">
-                <img src="/assets/feedback-icon-roll.svg" alt="" />
-                <img src="/assets/feedback-icon-copy.svg" alt="" />
-                <img src="/assets/feedback-icon-close.svg" alt="" />
-              </div>
-            </div>
-            <p class="geeks-feedbacks-desc">
-              Учим находить работу на местном и зарубежных рынках, проводя
-              мастер-классы от ведущих специалистов Кыргызстана.
-            </p>
-          </div>
-          <div class="geeks-feedbacks-cards">
-            <div class="geeks-feedbacks-top-rel">
-              <span class="geeks-feedback-number">#2</span>
-              <div class="geeks-feedback-select">
-                <img src="/assets/feedback-icon-roll.svg" alt="" />
-                <img src="/assets/feedback-icon-copy.svg" alt="" />
-                <img src="/assets/feedback-icon-close.svg" alt="" />
-              </div>
-            </div>
-            <p class="geeks-feedbacks-desc">
-              Наши преподаватели - лучшие практикующие специалисты рынка. Они
-              делятся проверенными знаниями для вашего будущего трудоустройства
-              в сфере IT.
-            </p>
-          </div>
-          <div class="geeks-feedbacks-cards">
-            <div class="geeks-feedbacks-top-rel">
-              <span class="geeks-feedback-number">#3</span>
-              <div class="geeks-feedback-select">
-                <img src="/assets/feedback-icon-roll.svg" alt="" />
-                <img src="/assets/feedback-icon-copy.svg" alt="" />
-                <img src="/assets/feedback-icon-close.svg" alt="" />
-              </div>
-            </div>
-            <p class="geeks-feedbacks-desc">
-              Мы тщательно прорабатываем нашу программу обучения, и она
-              постоянно совершенствуется в соответствии с нашими успехами в
-              обучении.
-            </p>
-          </div>
-          <div class="geeks-feedbacks-cards">
-            <div class="geeks-feedbacks-top-rel">
-              <span class="geeks-feedback-number">#4</span>
-              <div class="geeks-feedback-select">
-                <img src="/assets/feedback-icon-roll.svg" alt="" />
-                <img src="/assets/feedback-icon-copy.svg" alt="" />
-                <img src="/assets/feedback-icon-close.svg" alt="" />
-              </div>
-            </div>
-            <p class="geeks-feedbacks-desc">
-              Предоставляем каждому выпускнику гарантированную стажировку в
-              нашей IT-компании GeekStudio.
-            </p>
-          </div>
-          <div class="geeks-feedbacks-cards">
-            <div class="geeks-feedbacks-top-rel">
-              <span class="geeks-feedback-number">#5</span>
-              <div class="geeks-feedback-select">
-                <img src="/assets/feedback-icon-roll.svg" alt="" />
-                <img src="/assets/feedback-icon-copy.svg" alt="" />
-                <img src="/assets/feedback-icon-close.svg" alt="" />
-              </div>
-            </div>
-            <p class="geeks-feedbacks-desc">
-              Предоставляем возможность повторить и закрепить любой урок из
-              программы курса.
-            </p>
-          </div>
-          <div class="geeks-feedbacks-cards">
-            <div class="geeks-feedbacks-top-rel">
-              <span class="geeks-feedback-number">#6</span>
-              <div class="geeks-feedback-select">
-                <img src="/assets/feedback-icon-roll.svg" alt="" />
-                <img src="/assets/feedback-icon-copy.svg" alt="" />
-                <img src="/assets/feedback-icon-close.svg" alt="" />
-              </div>
-            </div>
-            <p class="geeks-feedbacks-desc">
-              Большая часть выпускников получают работу по выбранному
-              направлению после окончания курсов.
+            <button class="btn-send-modalWindow">Отправить</button>
+            <p class="send-personal-data">
+              Нажимая на кнопку вы соглашаетесь на обработку персональных
+              данных
             </p>
           </div>
         </div>
-        <div class="geeks-go-it geeks-orange-span">Отзывы учеников</div>
-        <div class="geeks-main-fourth-youshorts">
-          <div class="geeks-main-youshorts-cards">
-            <div class="geeks-shorts-img">
-              <img src="/assets/yshortsimg1.svg" alt="" />
-              <img src="/assets/shorts.svg" alt="" class="geeks-icon-shorts" />
-            </div>
-            <div class="geeks-shorts-img">
-              <img src="/assets/yshortsimg2.svg" alt="" />
-              <img src="/assets/shorts.svg" alt="" class="geeks-icon-shorts" />
-            </div>
-            <div class="geeks-shorts-img">
-              <img src="/assets/yshortsimg3.svg" alt="" />
-              <img src="/assets/shorts.svg" alt="" class="geeks-icon-shorts" />
-            </div>
-          </div>
-          <div class="geeks-main-youshorts-cards"></div>
-          <div class="geeks-main-youshorts-cards"></div>
-        </div>
-        <span class="geeks-go-it geeks-orange-span"
-          >Где работают наши выпускники</span
-        >
-        <div class="geeks-work-company-cards">
-          <img src="/assets/geeks.svg" alt="" />
-          <img src="/assets/geekstudio.svg" alt="" />
-          <img src="/assets/tezsat.svg" alt="" />
-          <img src="/assets/ts.svg" alt="" />
-          <img src="/assets/attractor.svg" alt="" />
-          <img src="/assets/beeline.svg" alt="" />
-          <img src="/assets/mad-devs.svg" alt="" />
-          <img src="/assets/optima.svg" alt="" />
-          <img src="/assets/company-name.svg" alt="" />
-          <img src="/assets/sibers.svg" alt="" />
-        </div>
-      </div>
-      <div class="geeks-main-section-five-yellow" id="geeks-coursess">
-        <span class="geeks-go-it geeks-orange-span geeks-courses"
-          >Наши курсы</span
-        >
-        <div class="geeks-five-sec-course-cards-block">
-          <div class="geeks-course-cards">
-            <div class="course-cards-span-block">
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-            </div>
-            <div class="geeks-course-cards-img">
-              <img src="/assets/course-android.svg" alt="" />
-              <p class="geeks-course-cards-info course-cards-title">ANDROID-</p>
-              <p class="geeks-course-cards-info course-cards-desc">
-                РАЗРАБОТЧИК
-              </p>
-              <p class="geeks-course-cards-info course-cards-price">
-                7 месяцев 8000 сом/месяц
-              </p>
-            </div>
-            <button class="geeks-course-btn-go">
-              Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
-            </button>
-          </div>
-          <div class="geeks-course-cards">
-            <div class="course-cards-span-block">
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-            </div>
-            <div class="geeks-course-cards-img">
-              <img src="/assets/course-js.svg" alt="" />
-              <p class="geeks-course-cards-info course-cards-title">
-                FRONTEND-
-              </p>
-              <p class="geeks-course-cards-info course-cards-desc">
-                РАЗРАБОТЧИК
-              </p>
-              <p class="geeks-course-cards-info course-cards-price">
-                5 месяцев 8000 сом/месяц
-              </p>
-            </div>
-            <button class="geeks-course-btn-go">
-              Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
-            </button>
-          </div>
-          <div class="geeks-course-cards">
-            <div class="course-cards-span-block">
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-            </div>
-            <div class="geeks-course-cards-img">
-              <img src="/assets/course-backend.svg" alt="" />
-              <p class="geeks-course-cards-info course-cards-title">BACKEND-</p>
-              <p class="geeks-course-cards-info course-cards-desc">
-                РАЗРАБОТЧИК
-              </p>
-              <p class="geeks-course-cards-info course-cards-price">
-                5 месяцев 8000 сом/месяц
-              </p>
-            </div>
-            <button class="geeks-course-btn-go">
-              Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
-            </button>
-          </div>
-          <div class="geeks-course-cards">
-            <div class="course-cards-span-block">
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-            </div>
-            <div class="geeks-course-cards-img">
-              <img src="/assets/course-figma.svg" alt="" />
-              <p class="geeks-course-cards-info course-cards-title">UX/UI-</p>
-              <p class="geeks-course-cards-info course-cards-desc">
-                РАЗРАБОТЧИК
-              </p>
-              <p class="geeks-course-cards-info course-cards-price">
-                5 месяцев 8000 сом/месяц
-              </p>
-            </div>
-            <button class="geeks-course-btn-go">
-              Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
-            </button>
-          </div>
-          <div class="geeks-course-cards">
-            <div class="course-cards-span-block">
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-            </div>
-            <div class="geeks-course-cards-img">
-              <img src="/assets/course-scratch.svg" alt="" />
-              <p class="geeks-course-cards-info course-cards-title">ДЕТСКОЕ-</p>
-              <p class="geeks-course-cards-info course-cards-desc">
-                РАЗРАБОТЧИК
-              </p>
-              <p class="geeks-course-cards-info course-cards-price">
-                9 месяцев 5000 сом/месяц
-              </p>
-            </div>
-            <button class="geeks-course-btn-go">
-              Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
-            </button>
-          </div>
-          <div class="geeks-course-cards">
-            <div class="course-cards-span-block">
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-              <div class="geeks-cards-span-color"></div>
-            </div>
-            <div class="geeks-course-cards-img">
-              <img src="/assets/course-program.svg" alt="" />
-              <p class="geeks-course-cards-info course-cards-title">ОСНОВЫ-</p>
-              <p class="geeks-course-cards-info course-cards-desc">
-                РАЗРАБОТЧИК
-              </p>
-              <p class="geeks-course-cards-info course-cards-price">
-                7 месяцев 8000 сом/месяц
-              </p>
-            </div>
-            <button class="geeks-course-btn-go">
-              Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="geeks-main-section-six">
-        <span class="geeks-go-it geeks-orange-span geeks-teachers"
-          >Преподаватели практики</span
-        >
-        <p class="geeks-text-standart geeks-teachers-text">
-          Наши преподаватели - лучшие практикующие специалисты рынка. Они
-          делятся проверенными знаниями для вашего будущего трудоустройства в
-          сфере IT.
-        </p>
-        <div class="slider-container">
-          <div class="slider">
-            <img src="assets/slider1.svg" alt="" />
-            <img src="assets/slider2.svg" alt="" />
-            <img src="assets/slider3.svg" alt="" />
-            <img src="assets/slider1.svg" alt="" />
-            <img src="assets/slider2.svg" alt="" />
-            <img src="assets/slider3.svg" alt="" />
-          </div>
-          <div class="slider-btn-container">
-            <button
-              class="prev-button"
-              aria-label="Посмотреть предыдущий слайд"
-            >
-              <img src="/assets/arrow-left.svg" alt="" />
-            </button>
-            <button class="next-button" aria-label="Посмотреть следующий слайд">
-              <img src="/assets/arrow-right.svg" alt="" />
-            </button>
-          </div>
-        </div>
-        <span class="geeks-go-it geeks-orange-span geeks-guaranted"
-          >Гарантированная стажировка</span
-        >
-        <p class="geeks-text-standart geeks-guaranted-text">
-          На сегодняшний день GeekStudio состоит из более 30 специалистов разных
-          областей. Сюда входят не только программисты, но и дизайнеры, а также
-          проектные менеджеры. Выбирая GEEKS, вы можете быть уверены, что после
-          окончания обучения вы получите гарантированную стажировку, где не
-          просто получите опыт, но и сможете построить целую карьеру
-        </p>
-        <div class="slider-container-geeks-studio">
-          <div class="slider-geeks-studio">
-            <img src="assets/team-geekstudio.svg" alt="" />
-            <img src="assets/team-geekstudio2.svg" alt="" />
-            <img src="assets/team-geekstudio3.svg" alt="" />
-            <img src="assets/team-geekstudio4.svg" alt="" />
-            <img src="assets/team-geekstudio5.svg" alt="" />
-            <img src="assets/team-geekstudio6.svg" alt="" />
-            <img src="assets/team-geekstudio7.svg" alt="" />
-          </div>
-          <div class="slider-geeks-studio-btn-container">
-            <button
-              class="geeks-prev-button"
-              aria-label="Посмотреть предыдущий слайд"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="44"
-                height="44"
-                viewBox="0 0 44 44"
-                fill="none"
-              >
-                <path
-                  d="M28.9231 6L32 8.90907L18.1538 22L32 35.0909L28.9231 38L15.0769 24.9091L12 22L15.0769 19.0909L28.9231 6Z"
-                  fill="#FCE900"
-                />
-              </svg>
-            </button>
-            <button
-              class="geeks-next-button"
-              aria-label="Посмотреть следующий слайд"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="44"
-                height="44"
-                viewBox="0 0 44 44"
-                fill="none"
-              >
-                <path
-                  d="M15.0769 6L12 8.90907L25.8462 22L12 35.0909L15.0769 38L28.9231 24.9091L32 22L28.9231 19.0909L15.0769 6Z"
-                  fill="#FCE900"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
-
-        <span class="geeks-go-it geeks-orange-span geeks-sert-title"
-          >Сертификат</span
-        >
-        <p class="geeks-text-standart geeks-sert-text">
-          По окончанию обучения выдается сертификат государственного образца на
-          трех языках с лицензией Министерства образования КР.
-        </p>
-        <div class="geeks-main-sert-block">
-          <div class="geeks-sert-cards">
-            <img src="/assets/sert.svg" alt="" />
-          </div>
-          <div class="geeks-sert-cards">
-            <img src="/assets/sert.svg" alt="" />
-          </div>
-          <div class="geeks-sert-cards">
-            <img src="/assets/sert.svg" alt="" />
-          </div>
-        </div>
-        <!-- gallery -->
-        <span class="geeks-go-it geeks-orange-span geeks-events-title"
-          >Мероприятия</span
-        >
-        <div class="gallery-container">
-          <div class="gallery-item" data-index="1">
-            <img
-              src="https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb"
-            />
-          </div>
-          <div class="gallery-item" data-index="2">
-            <img
-              src="https://images.pexels.com/photos/5969/wood-nature-forest-bridge.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb"
-            />
-          </div>
-          <div class="gallery-item" data-index="3">
-            <img
-              src="https://images.pexels.com/photos/531321/pexels-photo-531321.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb"
-            />
-          </div>
-          <div class="gallery-item" data-index="4">
-            <img
-              src="https://images.pexels.com/photos/373920/pexels-photo-373920.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-            />
-          </div>
-          <div class="gallery-item" data-index="5">
-            <img
-              src="https://images.pexels.com/photos/164241/pexels-photo-164241.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-            />
-          </div>
-          <div class="gallery-item" data-index="6">
-            <img
-              src="https://images.pexels.com/photos/417054/pexels-photo-417054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            />
-          </div>
-          <div class="gallery-item" data-index="7">
-            <img
-              src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            />
-          </div>
-          <div class="gallery-item" data-index="8">
-            <img
-              src="https://images.pexels.com/photos/38326/pexels-photo-38326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            />
-          </div>
-          <div class="gallery-item" data-index="9">
-            <img
-              src="https://images.pexels.com/photos/266691/pexels-photo-266691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            />
-          </div>
-          <div class="gallery-geeks-studio-btn-container">
-            <button
-              class="gallery-geeks-prev-button"
-              aria-label="Посмотреть предыдущий слайд"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="44"
-                height="44"
-                viewBox="0 0 44 44"
-                fill="none"
-              >
-                <path
-                  d="M28.9231 6L32 8.90907L18.1538 22L32 35.0909L28.9231 38L15.0769 24.9091L12 22L15.0769 19.0909L28.9231 6Z"
-                  fill="#FCE900"
-                />
-              </svg>
-            </button>
-            <button
-              class="gallery-geeks-next-button"
-              aria-label="Посмотреть следующий слайд"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="44"
-                height="44"
-                viewBox="0 0 44 44"
-                fill="none"
-              >
-                <path
-                  d="M15.0769 6L12 8.90907L25.8462 22L12 35.0909L15.0769 38L28.9231 24.9091L32 22L28.9231 19.0909L15.0769 6Z"
-                  fill="#FCE900"
-                />
-              </svg>
-            </button>
-          </div>
-          <!-- gallery -->
-        </div>
-        <span class="geeks-go-it geeks-orange-span geeks-faqs"
-          >Часто задаваемые вопросы</span
-        >
-
-        <!--  -->
-        <div class="geeks-spoiler-block-accordion">
-          <div class="accordion-item">
-            <button id="accordion-button-1" aria-expanded="false">
-              <span class="accordion-title"
-                >Why is the moon sometimes out during the day?</span
-              ><span class="icon" aria-hidden="true"></span>
-            </button>
-            <div class="accordion-content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
-              </p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button id="accordion-button-2" aria-expanded="false">
-              <span class="accordion-title">Why is the sky blue?</span
-              ><span class="icon" aria-hidden="true"></span>
-            </button>
-            <div class="accordion-content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
-              </p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button id="accordion-button-3" aria-expanded="false">
-              <span class="accordion-title">Will we ever discover aliens?</span
-              ><span class="icon" aria-hidden="true"></span>
-            </button>
-            <div class="accordion-content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
-              </p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button id="accordion-button-4" aria-expanded="false">
-              <span class="accordion-title">How much does the Earth weigh?</span
-              ><span class="icon" aria-hidden="true"></span>
-            </button>
-            <div class="accordion-content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
-              </p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <button id="accordion-button-5" aria-expanded="false">
-              <span class="accordion-title">How do airplanes stay up?</span
-              ><span class="icon" aria-hidden="true"></span>
-            </button>
-            <div class="accordion-content">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Elementum sagittis vitae et leo duis ut. Ut tortor pretium
-                viverra suspendisse potenti.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!--  -->
-        <span class="geeks-go-it geeks-orange-span geeks-consultation"
-          >Получить консультацию и записаться на курс</span
-        >
-        <div class="geeks-main-consultation-block">
-          <div class="inputs-consultation-block">
-            <input type="text" placeholder="Имя" />
-            <input type="text" placeholder="Номер телефона" />
-            <button class="btn-send-modalWindow btn-consultation">
-              Отправить
-            </button>
-          </div>
-          <p class="consultation-block-text">
-            Нажимая на кнопку вы соглашаетесь на обработку персональных данных
-          </p>
-        </div>
-      </div>
-      <div class="geeks-footer-section">
-        <div class="geeks-footer-logo">
-          <img src="/assets/footer-logo.svg" alt="" class="footer-logo" />
-        </div>
-        
-        <div class="geeks-footer-nav-section">
-          <!-- Контакты, адрес, режим работы, соц.иконки -->
-          <div class="geeks-fNav-section-first">
-            <div class="geeks-fNav-contatcs-tel">
-              <p class="geeks-fTexts geeks-fNav-contatcs">Контакты:</p>
-              <p class="geeks-fTexts-desc geeks-fNav-tel">
-                +996 995 80 40 80 +996 500 80 40 80
-              </p>
-            </div>
-            <div class="geeks-fNav-adress">
-              <p class="geeks-fTexts geeks-fNav-adress-title">Адрес:</p>
-              <p class="geeks-fTexts-desc geeks-fNav-adress">
-                г. Кара-Балта. ул. Т.Кожомбердиева 103, 112
-              </p>
-            </div>
-            <div class="geeks-fNav-hours-work">
-              <p class="geeks-fTexts geeks-fNav-hours">Режим работы:</p>
-              <p class="geeks-fTexts-desc geeks-fNav-hors-work">
-                с 09:00 - 20:00
-              </p>
-            </div>
-            <div class="geeks-fNav-social-icons">
-              <img src="/assets/footer-insta.svg" alt="" />
-              <img src="/assets/footer-whatapp.svg" alt="" />
-              <img src="/assets/footer-tiktok.svg" alt="" />
-              <img src="/assets/footer-facebook.svg" alt="" />
-            </div>
-          </div>
-          <!-- Контакты, адрес, режим работы, соц.иконки -->
-          <!-- Медиа -->
-          <div class="geeks-fNav-section-two-media">
-            <p class="geeks-fTexts geeks-fNav-hours">Медия</p>
-            <ul>
-              <li><a href="" class="geeks-fTexts-desc">О нас </a></li>
+        <!-- Modal Window call me top -->
+        <div class="geeks-header-nav-drop-down">
+          <nav>
+            <ul class="drop-down-right">
               <li>
-                <a href="" class="geeks-fTexts-desc">Почему именно мы ? </a>
+                <a href="#" class="submenu-link header-links-course"><img src="/assets/change_lang.svg" alt="" />РУС</a>
+                <ul class="submenu">
+                  <li><a href="">KG</a></li>
+                  <li><a href="">RU</a></li>
+                  <li><a href="">ENG</a></li>
+                </ul>
               </li>
-              <li><a href="" class="geeks-fTexts-desc">Отзывы </a></li>
-              <li><a href="" class="geeks-fTexts-desc">Наши курсы</a></li>
-              <li><a href="" class="geeks-fTexts-desc">Преподаватели</a></li>
-              <li>
-                <a href="" class="geeks-fTexts-desc"
-                  >Гарантированная стажировка</a
-                >
-              </li>
-              <li><a href="" class="geeks-fTexts-desc">Сертификат</a></li>
-              <li><a href="" class="geeks-fTexts-desc">FAQ</a></li>
             </ul>
-          </div>
-          <!-- Медиа -->
-          <!-- Карта -->
-          <div class="geeks-fNav-section-three-map">
-            <p class="geeks-fTexts geeks-fNav-map">Карта</p>
-            <img src="/assets/footer-map.svg" alt="" class="footer-map" />
-          </div>
-
-          <!-- Карта -->
+          </nav>
         </div>
       </div>
     </div>
-    <script src="/modalWindow.js"></script>
-    <script src="/slider.js"></script>
-    <script src="/main.js"></script>
-  </body>
-</html>
+    <div class="geeks-header-section-first" id="1">
+      <div class="geeks-top-info-span">
+        <span class="geeks-go-it"> ТВОЁ БУДЕЩЕЕ </span>
+        <span class="geeks-go-it geeks-world-it"> В МИРЕ IT </span>
+      </div>
+      <img src="/assets/geeks_course.svg" alt="" />
+      <button class="geeks-main-btn btn-call-main">Связаться</button>
+    </div>
+    <div class="geeks-main-section-two" id="about-us">
+      <span class="geeks-go-it geeks-orange-span"> О Нас </span>
+      <div class="geeks-main-section-img">
+        <img src="/assets/image_founders.svg" alt="" />
+        <span class="geeks-main-img-bottom-text">Основатели GEEKS - Айдар Бакиров и Нургазы Сулайманов</span>
+      </div>
+      <p class="geeks-main-info-all">
+        IT-Курсы GEEKS были основаны в 2018-ом году в Бишкеке с целью дать
+        возможность каждому человеку, даже без опыта в технологиях,
+        гарантированно освоить IT-профессию.
+      </p>
+    </div>
 
+    <div class="geeks-main-section-three">
+      <img src="/assets/nine.png" alt="" class="geeks-main-img-nine" />
+      <div class="geeks-go-it geeks-orange-span">GEEKS в цифрах</div>
+      <div class="geeks-main-statistics">
+        <div class="geeks-main-statistics-cards">
+          <p class="geeks-main-cards-text">1200+</p>
+          <p class="geeks-main-cards-students">студентов</p>
+        </div>
+        <div class="geeks-main-statistics-cards">
+          <p class="geeks-main-cards-text">1000+</p>
+          <p class="geeks-main-cards-students">выпускников</p>
+        </div>
+        <div class="geeks-main-statistics-cards">
+          <p class="geeks-main-cards-text">50+</p>
+          <p class="geeks-main-cards-students">преподавателей</p>
+        </div>
+        <div class="geeks-main-statistics-cards">
+          <p class="geeks-main-cards-text">70+</p>
+          <p class="geeks-main-cards-students">менторов</p>
+        </div>
+        <div class="geeks-main-statistics-cards">
+          <p class="geeks-main-cards-text">50+</p>
+          <p class="geeks-main-cards-students">сотрудников</p>
+        </div>
+        <div class="geeks-main-statistics-cards">
+          <p class="geeks-main-cards-text">3+</p>
+          <p class="geeks-main-cards-students">города</p>
+        </div>
+      </div>
+      <img src="/assets/six.png" alt="" class="geeks-main-img-six" />
+    </div>
+    <div class="geeks-main-section-fourth">
+      <span class="geeks-go-it geeks-orange-span">Почему выбирают нас?</span>
+      <div class="geeks-main-feedbacks-card-block">
+        <div class="geeks-feedbacks-cards">
+          <div class="geeks-feedbacks-top-rel">
+            <span class="geeks-feedback-number">#1</span>
+            <div class="geeks-feedback-select">
+              <img src="/assets/feedback-icon-roll.svg" alt="" />
+              <img src="/assets/feedback-icon-copy.svg" alt="" />
+              <img src="/assets/feedback-icon-close.svg" alt="" />
+            </div>
+          </div>
+          <p class="geeks-feedbacks-desc">
+            Учим находить работу на местном и зарубежных рынках, проводя
+            мастер-классы от ведущих специалистов Кыргызстана.
+          </p>
+        </div>
+        <div class="geeks-feedbacks-cards">
+          <div class="geeks-feedbacks-top-rel">
+            <span class="geeks-feedback-number">#2</span>
+            <div class="geeks-feedback-select">
+              <img src="/assets/feedback-icon-roll.svg" alt="" />
+              <img src="/assets/feedback-icon-copy.svg" alt="" />
+              <img src="/assets/feedback-icon-close.svg" alt="" />
+            </div>
+          </div>
+          <p class="geeks-feedbacks-desc">
+            Наши преподаватели - лучшие практикующие специалисты рынка. Они
+            делятся проверенными знаниями для вашего будущего трудоустройства
+            в сфере IT.
+          </p>
+        </div>
+        <div class="geeks-feedbacks-cards">
+          <div class="geeks-feedbacks-top-rel">
+            <span class="geeks-feedback-number">#3</span>
+            <div class="geeks-feedback-select">
+              <img src="/assets/feedback-icon-roll.svg" alt="" />
+              <img src="/assets/feedback-icon-copy.svg" alt="" />
+              <img src="/assets/feedback-icon-close.svg" alt="" />
+            </div>
+          </div>
+          <p class="geeks-feedbacks-desc">
+            Мы тщательно прорабатываем нашу программу обучения, и она
+            постоянно совершенствуется в соответствии с нашими успехами в
+            обучении.
+          </p>
+        </div>
+        <div class="geeks-feedbacks-cards">
+          <div class="geeks-feedbacks-top-rel">
+            <span class="geeks-feedback-number">#4</span>
+            <div class="geeks-feedback-select">
+              <img src="/assets/feedback-icon-roll.svg" alt="" />
+              <img src="/assets/feedback-icon-copy.svg" alt="" />
+              <img src="/assets/feedback-icon-close.svg" alt="" />
+            </div>
+          </div>
+          <p class="geeks-feedbacks-desc">
+            Предоставляем каждому выпускнику гарантированную стажировку в
+            нашей IT-компании GeekStudio.
+          </p>
+        </div>
+        <div class="geeks-feedbacks-cards">
+          <div class="geeks-feedbacks-top-rel">
+            <span class="geeks-feedback-number">#5</span>
+            <div class="geeks-feedback-select">
+              <img src="/assets/feedback-icon-roll.svg" alt="" />
+              <img src="/assets/feedback-icon-copy.svg" alt="" />
+              <img src="/assets/feedback-icon-close.svg" alt="" />
+            </div>
+          </div>
+          <p class="geeks-feedbacks-desc">
+            Предоставляем возможность повторить и закрепить любой урок из
+            программы курса.
+          </p>
+        </div>
+        <div class="geeks-feedbacks-cards">
+          <div class="geeks-feedbacks-top-rel">
+            <span class="geeks-feedback-number">#6</span>
+            <div class="geeks-feedback-select">
+              <img src="/assets/feedback-icon-roll.svg" alt="" />
+              <img src="/assets/feedback-icon-copy.svg" alt="" />
+              <img src="/assets/feedback-icon-close.svg" alt="" />
+            </div>
+          </div>
+          <p class="geeks-feedbacks-desc">
+            Большая часть выпускников получают работу по выбранному
+            направлению после окончания курсов.
+          </p>
+        </div>
+      </div>
+      <div class="geeks-go-it geeks-orange-span">Отзывы учеников</div>
+      <div class="geeks-main-fourth-youshorts">
+        <div class="geeks-main-youshorts-cards">
+          <div class="geeks-shorts-img">
+            <img src="/assets/yshortsimg1.svg" alt="" />
+            <img src="/assets/shorts.svg" alt="" class="geeks-icon-shorts" />
+          </div>
+          <div class="geeks-shorts-img">
+            <img src="/assets/yshortsimg2.svg" alt="" />
+            <img src="/assets/shorts.svg" alt="" class="geeks-icon-shorts" />
+          </div>
+          <div class="geeks-shorts-img">
+            <img src="/assets/yshortsimg3.svg" alt="" />
+            <img src="/assets/shorts.svg" alt="" class="geeks-icon-shorts" />
+          </div>
+        </div>
+        <div class="geeks-main-youshorts-cards"></div>
+        <div class="geeks-main-youshorts-cards"></div>
+      </div>
+      <span class="geeks-go-it geeks-orange-span">Где работают наши выпускники</span>
+      <div class="geeks-work-company-cards">
+        <img src="/assets/geeks.svg" alt="" />
+        <img src="/assets/geekstudio.svg" alt="" />
+        <img src="/assets/tezsat.svg" alt="" />
+        <img src="/assets/ts.svg" alt="" />
+        <img src="/assets/attractor.svg" alt="" />
+        <img src="/assets/beeline.svg" alt="" />
+        <img src="/assets/mad-devs.svg" alt="" />
+        <img src="/assets/optima.svg" alt="" />
+        <img src="/assets/company-name.svg" alt="" />
+        <img src="/assets/sibers.svg" alt="" />
+      </div>
+    </div>
+    <div class="geeks-main-section-five-yellow" id="geeks-coursess">
+      <span class="geeks-go-it geeks-orange-span geeks-courses">Наши курсы</span>
+      <div class="geeks-five-sec-course-cards-block">
+        <div class="geeks-course-cards">
+          <div class="course-cards-span-block">
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+          </div>
+          <div class="geeks-course-cards-img">
+            <img src="/assets/course-android.svg" alt="" />
+            <p class="geeks-course-cards-info course-cards-title">ANDROID-</p>
+            <p class="geeks-course-cards-info course-cards-desc">
+              РАЗРАБОТЧИК
+            </p>
+            <p class="geeks-course-cards-info course-cards-price">
+              7 месяцев 8000 сом/месяц
+            </p>
+          </div>
+          <button class="geeks-course-btn-go btn-modal-js" data-modal-content="modal-js">
+            Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="geeks-course-cards">
+          <div class="course-cards-span-block">
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+          </div>
+          <div class="geeks-course-cards-img">
+            <img src="/assets/course-js.svg" alt="" />
+            <p class="geeks-course-cards-info course-cards-title">
+              FRONTEND-
+            </p>
+            <p class="geeks-course-cards-info course-cards-desc">
+              РАЗРАБОТЧИК
+            </p>
+            <p class="geeks-course-cards-info course-cards-price">
+              5 месяцев 8000 сом/месяц
+            </p>
+          </div>
+          <button class="geeks-course-btn-go btn-modal-front" data-modal-content="modal-front">
+            Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="geeks-course-cards">
+          <div class="course-cards-span-block">
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+          </div>
+          <div class="geeks-course-cards-img">
+            <img src="/assets/course-backend.svg" alt="" />
+            <p class="geeks-course-cards-info course-cards-title">BACKEND-</p>
+            <p class="geeks-course-cards-info course-cards-desc">
+              РАЗРАБОТЧИК
+            </p>
+            <p class="geeks-course-cards-info course-cards-price">
+              5 месяцев 8000 сом/месяц
+            </p>
+          </div>
+          <button class="geeks-course-btn-go btn-modal-back" data-modal-content="modal-back">
+            Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="geeks-course-cards">
+          <div class="course-cards-span-block">
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+          </div>
+          <div class="geeks-course-cards-img">
+            <img src="/assets/course-figma.svg" alt="" />
+            <p class="geeks-course-cards-info course-cards-title">UX/UI-</p>
+            <p class="geeks-course-cards-info course-cards-desc">
+              РАЗРАБОТЧИК
+            </p>
+            <p class="geeks-course-cards-info course-cards-price">
+              5 месяцев 8000 сом/месяц
+            </p>
+          </div>
+          <button class="geeks-course-btn-go btn-modal-ux" data-modal-content="modal-ux">
+            Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="geeks-course-cards">
+          <div class="course-cards-span-block">
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+          </div>
+          <div class="geeks-course-cards-img">
+            <img src="/assets/course-scratch.svg" alt="" />
+            <p class="geeks-course-cards-info course-cards-title">ДЕТСКОЕ-</p>
+            <p class="geeks-course-cards-info course-cards-desc">
+              РАЗРАБОТЧИК
+            </p>
+            <p class="geeks-course-cards-info course-cards-price">
+              9 месяцев 5000 сом/месяц
+            </p>
+          </div>
+          <button class="geeks-course-btn-go btn-modal-kids" data-modal-content="modal-kids">
+            Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
+          </button>
+        </div>
+        <div class="geeks-course-cards">
+          <div class="course-cards-span-block">
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+            <div class="geeks-cards-span-color"></div>
+          </div>
+          <div class="geeks-course-cards-img">
+            <img src="/assets/course-program.svg" alt="" />
+            <p class="geeks-course-cards-info course-cards-title">ОСНОВЫ-</p>
+            <p class="geeks-course-cards-info course-cards-desc">
+              РАЗРАБОТЧИК
+            </p>
+            <p class="geeks-course-cards-info course-cards-price">
+              7 месяцев 8000 сом/месяц
+            </p>
+          </div>
+          <button class="geeks-course-btn-go btn-modal-own" data-modal-content="modal-own">
+            Подробнее <img src="/assets/btn-cards-arrow.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- All modal blocks geeks course -->
+    <div id="modal-js" class="my-modal">
+      <div class="my-modal-content">
+        <span class="my-close-btn">×</span>
+        <h2>Reserved Slot JS modal window</h2>
+        <p>Reserved Slot JS modal window</p>
+      </div>
+    </div>
+
+    <div id="modal-front" class="my-modal">
+      <div class="my-modal-content">
+        <span class="my-close-btn">×</span>
+        <h2>Reserved Slot Front modal window</h2>
+        <p>Reserved Slot Front modal window</p>
+      </div>
+    </div>
+
+    <div id="modal-back" class="my-modal">
+      <div class="my-modal-content">
+        <span class="my-close-btn">×</span>
+        <h2>Reserved Slot Backend modal window</h2>
+        <p>Reserved Slot Backend modal window</p>
+      </div>
+    </div>
+
+    <div id="modal-ux" class="my-modal">
+      <div class="my-modal-content">
+        <span class="my-close-btn">×</span>
+        <h2>Reserved Slot UX/UI modal window</h2>
+        <p>Reserved Slot UX/UI modal window</p>
+      </div>
+    </div>
+
+    <div id="modal-kids" class="my-modal">
+      <div class="my-modal-content">
+        <span class="my-close-btn">×</span>
+        <h2>Reserved Slot Kids modal window</h2>
+        <p>Reserved Slot Kids modal window</p>
+      </div>
+    </div>
+
+    <div id="modal-own" class="my-modal">
+      <div class="my-modal-content">
+        <span class="my-close-btn">×</span>
+        <h2>Reserved Slot Own modal window</h2>
+        <p>Reserved Slot Own modal window.</p>
+      </div>
+    </div>
+
+    <!-- All modal blocks geeks course -->
+    <div class="geeks-main-section-six">
+      <span class="geeks-go-it geeks-orange-span geeks-teachers">Преподаватели практики</span>
+      <p class="geeks-text-standart geeks-teachers-text">
+        Наши преподаватели - лучшие практикующие специалисты рынка. Они
+        делятся проверенными знаниями для вашего будущего трудоустройства в
+        сфере IT.
+      </p>
+      <div class="slider-container">
+        <div class="slider">
+          <img src="assets/slider1.svg" alt="" />
+          <img src="assets/slider2.svg" alt="" />
+          <img src="assets/slider3.svg" alt="" />
+          <img src="assets/slider1.svg" alt="" />
+          <img src="assets/slider2.svg" alt="" />
+          <img src="assets/slider3.svg" alt="" />
+        </div>
+        <div class="slider-btn-container">
+          <button class="prev-button" aria-label="Посмотреть предыдущий слайд">
+            <img src="/assets/arrow-left.svg" alt="" />
+          </button>
+          <button class="next-button" aria-label="Посмотреть следующий слайд">
+            <img src="/assets/arrow-right.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <span class="geeks-go-it geeks-orange-span geeks-guaranted" id="go-trial">Гарантированная стажировка</span>
+      <p class="geeks-text-standart geeks-guaranted-text">
+        На сегодняшний день GeekStudio состоит из более 30 специалистов разных
+        областей. Сюда входят не только программисты, но и дизайнеры, а также
+        проектные менеджеры. Выбирая GEEKS, вы можете быть уверены, что после
+        окончания обучения вы получите гарантированную стажировку, где не
+        просто получите опыт, но и сможете построить целую карьеру
+      </p>
+      <div class="slider-container-geeks-studio">
+        <div class="slider-geeks-studio">
+          <img src="assets/team-geekstudio.svg" alt="" />
+          <img src="assets/team-geekstudio2.svg" alt="" />
+          <img src="assets/team-geekstudio3.svg" alt="" />
+          <img src="assets/team-geekstudio4.svg" alt="" />
+          <img src="assets/team-geekstudio5.svg" alt="" />
+          <img src="assets/team-geekstudio6.svg" alt="" />
+          <img src="assets/team-geekstudio7.svg" alt="" />
+        </div>
+        <div class="slider-geeks-studio-btn-container">
+          <button class="geeks-prev-button" aria-label="Посмотреть предыдущий слайд">
+            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+              <path
+                d="M28.9231 6L32 8.90907L18.1538 22L32 35.0909L28.9231 38L15.0769 24.9091L12 22L15.0769 19.0909L28.9231 6Z"
+                fill="#FCE900" />
+            </svg>
+          </button>
+          <button class="geeks-next-button" aria-label="Посмотреть следующий слайд">
+            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+              <path
+                d="M15.0769 6L12 8.90907L25.8462 22L12 35.0909L15.0769 38L28.9231 24.9091L32 22L28.9231 19.0909L15.0769 6Z"
+                fill="#FCE900" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <span class="geeks-go-it geeks-orange-span geeks-sert-title">Сертификат</span>
+      <p class="geeks-text-standart geeks-sert-text">
+        По окончанию обучения выдается сертификат государственного образца на
+        трех языках с лицензией Министерства образования КР.
+      </p>
+      <div class="geeks-main-sert-block">
+        <div class="geeks-sert-cards">
+          <img src="/assets/sert.svg" alt="" />
+        </div>
+        <div class="geeks-sert-cards">
+          <img src="/assets/sert.svg" alt="" />
+        </div>
+        <div class="geeks-sert-cards">
+          <img src="/assets/sert.svg" alt="" />
+        </div>
+      </div>
+      <!-- gallery -->
+      <span class="geeks-go-it geeks-orange-span geeks-events-title">Мероприятия</span>
+      <div class="gallery-container">
+        <div class="gallery-item" data-index="1">
+          <img
+            src="https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb"
+            alt="" />
+        </div>
+        <div class="gallery-item" data-index="2">
+          <img
+            src="https://images.pexels.com/photos/5969/wood-nature-forest-bridge.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb"
+            alt="" />
+        </div>
+        <div class="gallery-item" data-index="3">
+          <img
+            src="https://images.pexels.com/photos/531321/pexels-photo-531321.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb"
+            alt="" />
+        </div>
+        <div class="gallery-item" data-index="4">
+          <img
+            src="https://images.pexels.com/photos/373920/pexels-photo-373920.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            alt="" />
+        </div>
+        <div class="gallery-item" data-index="5">
+          <img
+            src="https://images.pexels.com/photos/164241/pexels-photo-164241.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            alt="" />
+        </div>
+        <div class="gallery-item" data-index="6">
+          <img
+            src="https://images.pexels.com/photos/417054/pexels-photo-417054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="" />
+        </div>
+        <div class="gallery-item" data-index="7">
+          <img
+            src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="" />
+        </div>
+        <div class="gallery-item" data-index="8">
+          <img
+            src="https://images.pexels.com/photos/38326/pexels-photo-38326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="" />
+        </div>
+        <div class="gallery-item" data-index="9">
+          <img
+            src="https://images.pexels.com/photos/266691/pexels-photo-266691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="" />
+        </div>
+        <div class="gallery-geeks-studio-btn-container">
+          <button class="gallery-geeks-prev-button" aria-label="Посмотреть предыдущий слайд">
+            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+              <path
+                d="M28.9231 6L32 8.90907L18.1538 22L32 35.0909L28.9231 38L15.0769 24.9091L12 22L15.0769 19.0909L28.9231 6Z"
+                fill="#FCE900" />
+            </svg>
+          </button>
+          <button class="gallery-geeks-next-button" aria-label="Посмотреть следующий слайд">
+            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+              <path
+                d="M15.0769 6L12 8.90907L25.8462 22L12 35.0909L15.0769 38L28.9231 24.9091L32 22L28.9231 19.0909L15.0769 6Z"
+                fill="#FCE900" />
+            </svg>
+          </button>
+        </div>
+        <!-- gallery -->
+      </div>
+      <span class="geeks-go-it geeks-orange-span geeks-faqs" id="go-faq">Часто задаваемые вопросы</span>
+
+      <!--  -->
+      <div class="geeks-spoiler-block-accordion">
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false">
+            <span class="accordion-title">Why is the moon sometimes out during the day?</span><span class="icon"
+              aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+              viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false">
+            <span class="accordion-title">Why is the sky blue?</span><span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+              viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-3" aria-expanded="false">
+            <span class="accordion-title">Will we ever discover aliens?</span><span class="icon"
+              aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+              viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false">
+            <span class="accordion-title">How much does the Earth weigh?</span><span class="icon"
+              aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+              viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-5" aria-expanded="false">
+            <span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+              viverra suspendisse potenti.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <span class="geeks-go-it geeks-orange-span geeks-consultation">Получить консультацию и записаться на курс</span>
+      <div class="geeks-main-consultation-block">
+        <div class="inputs-consultation-block">
+          <input type="text" placeholder="Имя" />
+          <input type="text" placeholder="Номер телефона" />
+          <button class="btn-send-modalWindow btn-consultation">
+            Отправить
+          </button>
+        </div>
+        <p class="consultation-block-text">
+          Нажимая на кнопку вы соглашаетесь на обработку персональных данных
+        </p>
+      </div>
+    </div>
+    <div class="geeks-footer-section">
+      <div class="geeks-footer-logo">
+        <img src="/assets/footer-logo.svg" alt="" class="footer-logo" />
+      </div>
+
+      <div class="geeks-footer-nav-section">
+        <!-- Контакты, адрес, режим работы, соц.иконки -->
+        <div class="geeks-fNav-section-first">
+          <div class="geeks-fNav-contatcs-tel">
+            <p class="geeks-fTexts geeks-fNav-contatcs">Контакты:</p>
+            <p class="geeks-fTexts-desc geeks-fNav-tel">
+              +996 995 80 40 80 +996 500 80 40 80
+            </p>
+          </div>
+          <div class="geeks-fNav-adress">
+            <p class="geeks-fTexts geeks-fNav-adress-title">Адрес:</p>
+            <p class="geeks-fTexts-desc geeks-fNav-adress">
+              г. Кара-Балта. ул. Т.Кожомбердиева 103, 112
+            </p>
+          </div>
+          <div class="geeks-fNav-hours-work">
+            <p class="geeks-fTexts geeks-fNav-hours">Режим работы:</p>
+            <p class="geeks-fTexts-desc geeks-fNav-hors-work">
+              с 09:00 - 20:00
+            </p>
+          </div>
+          <div class="geeks-fNav-social-icons">
+            <img src="/assets/footer-insta.svg" alt="" />
+            <img src="/assets/footer-whatapp.svg" alt="" />
+            <img src="/assets/footer-tiktok.svg" alt="" />
+            <img src="/assets/footer-facebook.svg" alt="" />
+          </div>
+        </div>
+        <!-- Контакты, адрес, режим работы, соц.иконки -->
+        <!-- Медиа -->
+        <div class="geeks-fNav-section-two-media">
+          <p class="geeks-fTexts geeks-fNav-hours">Медия</p>
+          <ul>
+            <li><a href="" class="geeks-fTexts-desc">О нас </a></li>
+            <li>
+              <a href="" class="geeks-fTexts-desc">Почему именно мы ? </a>
+            </li>
+            <li><a href="" class="geeks-fTexts-desc">Отзывы </a></li>
+            <li><a href="" class="geeks-fTexts-desc">Наши курсы</a></li>
+            <li><a href="" class="geeks-fTexts-desc">Преподаватели</a></li>
+            <li>
+              <a href="" class="geeks-fTexts-desc">Гарантированная стажировка</a>
+            </li>
+            <li><a href="" class="geeks-fTexts-desc">Сертификат</a></li>
+            <li><a href="" class="geeks-fTexts-desc">FAQ</a></li>
+          </ul>
+        </div>
+        <!-- Медиа -->
+        <!-- Карта -->
+        <div class="geeks-fNav-section-three-map">
+          <p class="geeks-fTexts geeks-fNav-map">Карта</p>
+          <img src="/assets/footer-map.svg" alt="" class="footer-map" />
+        </div>
+
+        <!-- Карта -->
+      </div>
+    </div>
+  </div>
+  <script src="/modalWindow.js"></script>
+  <script src="/slider.js"></script>
+  <script src="/main.js"></script>
+  <script src="/course-modal.js"></script>
+</body>
+
+</html>

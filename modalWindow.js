@@ -1,7 +1,5 @@
-var btn = document.querySelector(".call-me-btn");
-
+var buttons = document.querySelectorAll(".geeks-main-btn, .other-btn");
 var modal = document.getElementById("myModal");
-
 var closeBtn = document.getElementsByClassName("close")[0];
 
 function openModal() {
@@ -12,11 +10,13 @@ function closeModal() {
   modal.style.display = "none";
 }
 
-btn.addEventListener("click", openModal);
+buttons.forEach(function (button) {
+  button.addEventListener("click", openModal);
+});
 
 closeBtn.addEventListener("click", closeModal);
 
-window.addEventListener("click", function(event) {
+window.addEventListener("click", function (event) {
   if (event.target == modal) {
     closeModal();
   }
