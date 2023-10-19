@@ -208,6 +208,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+    flex-basis: 90%;
   }
 
   .geeks-feedbacks-desc {
