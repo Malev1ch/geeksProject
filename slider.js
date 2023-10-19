@@ -33,17 +33,17 @@ updateSlider();
 
 // Geeks youtube shorts slider
 
-const sliderShorts = document.querySelector(".slider");
-const prevButtonShorts = document.querySelector(".prev-button");
-const nextButtonShorts = document.querySelector(".next-button");
-const slidesShorts = Array.from(slider.querySelectorAll("img"));
-const slideCountShorts = slides.length;
+const sliderShorts = document.querySelector(".yshorts-slider");
+const prevButtonShorts = document.querySelector(".yshorts-btn-prev");
+const nextButtonShorts = document.querySelector(".yshorts-btn-next");
+const slidesShorts = Array.from(sliderShorts.querySelectorAll("img"));
+const slideCountShorts = slidesShorts.length;
 let slideIndexShorts = 0;
 
-prevButtonShorts.addEventListener("click", showPreviousSlide);
-nextButtonShorts.addEventListener("click", showNextSlide);
+prevButtonShorts.addEventListener("click", showPreviousSlideShorts);
+nextButtonShorts.addEventListener("click", showNextSlideShorts);
 
-function showPreviousSlide() {
+function showPreviousSlideShorts() {
   slideIndexShorts = (slideIndexShorts - 1 + slideCountShorts) % slideCountShorts;
   updateSliderShorts();
 }

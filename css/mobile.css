@@ -1,14 +1,14 @@
 @media (max-width: 400px) {
     .container {
-        max-width: 480px;
+        max-width: 420px;
         margin: 0 auto;
     }
     .hamburger-menu {
       visibility: visible;
-      width: 480px;
+      width: 420px;
     }
     .geeks-header-main {
-        width: 480px;
+        width: 420px;
         position: fixed;
         top: 0;
         backdrop-filter: none;
@@ -32,7 +32,7 @@
 /* top modal windows call me response */
 
 @media (max-width:400px) {
-  .modal {
+  .hamburg-menu-modal {
     width: 420px;
     display:none;
     position:fixed;
@@ -44,7 +44,7 @@
     overflow:auto;
     background-color:rgba(0,0,0,0.2);
   }
-  .modal-content {
+  .hamburg-menu-modalContent {
   background-color:rgba(255,255,255,0.75);
   margin:auto;
   padding:20px;
@@ -56,7 +56,11 @@
   justify-content:center;
   backdrop-filter:blur(15px);
 }
-.modalWindow-text {
+.hamburg-menu-modalWindow-content {
+  display:flex;
+}
+
+.hamburg-menu-modal-text {
   width: 361px;
   color: #000;
   font-family: Onest;
@@ -65,7 +69,7 @@
   font-weight: 700;
   line-height: normal;
 }
-.descr-modalWindow {
+.hamburg-menu-modal-textDesc {
   width: 309px;
   color: #57585A;
   font-family: Onest;
@@ -84,7 +88,14 @@
   flex-shrink: 0;
   font-size: 16px;
 }
-.modalWindow-inputs input::placeholder{
+
+.hamburg-menu-modal-window-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hamburg-menu-modal-window-inputs input::placeholder{
   color: var(--ui-grey-grey-1, #57585A);
   text-align: justify;
   font-family: Onest;
@@ -93,7 +104,7 @@
   font-weight: 700;
   line-height: normal
 }
-.btn-send-modalWindow {
+.hamburg-menu-modal-btn {
   display: flex;
   padding: 20px;
   justify-content: center;
@@ -131,7 +142,7 @@
     width: 300px;
     height: 251px;
   }
-  .geeks-header-section-first button {
+  .btn-response {
     width: 354px;
     height: 71px;
   }
@@ -252,6 +263,34 @@
   .geeks-main-fourth-youshorts {
     padding: 0 50px;
   }
+  /* slider youtube shorts */
+  .yshorts-container {
+  margin:0 auto;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:20px;
+}
+.yshorts-slider {
+  display:flex;
+  transition:transform 0.5s ease-in-out;
+}
+.yshorts-slider img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.yshorts-btn-prev,.yshorts-btn-next {
+  width:90px;
+  height:40px;
+  background-color:black;
+  border:none;
+  font-size:24px;
+  color:rgb(221,218,20);
+}
+
+  /* slider youtube shorts */
   
 }
 

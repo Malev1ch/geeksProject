@@ -1,4 +1,4 @@
-var buttons = document.querySelectorAll(".geeks-main-btn, .other-btn");
+var buttons = document.querySelectorAll(".geeks-main-btn, .other-btn, .hamburg-menu-btn, .btn-response");
 var modal = document.getElementById("myModal");
 var closeBtn = document.getElementsByClassName("close")[0];
 
