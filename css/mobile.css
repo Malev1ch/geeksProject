@@ -146,6 +146,13 @@
     width: 354px;
     height: 71px;
   }
+    .geeks-orange-span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+  }
   .geeks-main-section-img {
     padding: 0 32px;
   }
