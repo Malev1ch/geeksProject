@@ -161,14 +161,14 @@
 
   }
   .geeks-main-img-bottom-text {
-    width: 360px;
+    width: 420px;
     font-family: Reforma Grotesk Demi;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: center;
-    padding: 15px;
+/*     padding: px; */
   }
   .geeks-main-info-all {
     width: 360px;
