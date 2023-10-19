@@ -204,7 +204,7 @@
   .geeks-feedbacks-cards {
     display: flex;
   width: 400px;
-  padding: 20px;
+  padding: 25px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -212,7 +212,7 @@
   }
 
   .geeks-feedbacks-desc {
-    width: 370px;
+    width: 350px;
   font-family: Onest;
   font-size: 16px;
   font-style: normal;
