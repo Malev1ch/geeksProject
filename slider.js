@@ -31,6 +31,41 @@ function updateSlider() {
 updateSlider();
 // Geeks teachers gallery slider
 
+// Geeks youtube shorts slider
+
+const sliderShorts = document.querySelector(".slider");
+const prevButtonShorts = document.querySelector(".prev-button");
+const nextButtonShorts = document.querySelector(".next-button");
+const slidesShorts = Array.from(slider.querySelectorAll("img"));
+const slideCountShorts = slides.length;
+let slideIndexShorts = 0;
+
+prevButtonShorts.addEventListener("click", showPreviousSlide);
+nextButtonShorts.addEventListener("click", showNextSlide);
+
+function showPreviousSlide() {
+  slideIndexShorts = (slideIndexShorts - 1 + slideCountShorts) % slideCountShorts;
+  updateSliderShorts();
+}
+
+function showNextSlideShorts() {
+  slideIndexShorts = (slideIndexShorts + 1) % slideCountShorts;
+  updateSliderShorts();
+}
+
+function updateSliderShorts() {
+  slidesShorts.forEach((slideShorts, index) => {
+    if (index >= slideIndexShorts && index < slideIndexShorts + 3) {
+      slideShorts.style.display = "block";
+    } else {
+      slideShorts.style.display = "none";
+    }
+  });
+}
+updateSliderShorts();
+
+// Geeks youtube shorts slider
+
 // Geeks studio gallery slider
 const sliderGeeks = document.querySelector(".slider-geeks-studio");
 const prevButtonGeeks = document.querySelector(".geeks-prev-button");
