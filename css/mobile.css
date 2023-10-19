@@ -11,6 +11,7 @@
         width: 400px;
         position: fixed;
         top: 0;
+        backdrop-filter: blur(0px);
     }
     .geeks-header-nav-links {
         display: none;
