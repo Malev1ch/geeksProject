@@ -1,14 +1,14 @@
 @media (max-width: 400px) {
     .container {
-        max-width: 420px;
+        max-width: 480px;
         margin: 0 auto;
     }
     .hamburger-menu {
       visibility: visible;
-      width: 420px;
+      width: 480px;
     }
     .geeks-header-main {
-        width: 420px;
+        width: 480px;
         position: fixed;
         top: 0;
         backdrop-filter: none;
@@ -33,7 +33,7 @@
 
 @media (max-width:400px) {
   .hamburg-menu-modal {
-    width: 420px;
+    width: 480px;
     display:none;
     position:fixed;
     z-index:1;
@@ -48,7 +48,7 @@
   background-color:rgba(255,255,255,0.75);
   margin:auto;
   padding:20px;
-  width: 420px;
+  width: 480px;
   height:700px;
   display:flex;
   flex-direction:column;
