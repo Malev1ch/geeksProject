@@ -5,10 +5,10 @@
     }
     .hamburger-menu {
       visibility: visible;
-      width: 400px;
+      width: 420px;
     }
     .geeks-header-main {
-        width: 400px;
+        width: 420px;
         position: fixed;
         top: 0;
         backdrop-filter: none;
