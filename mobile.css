@@ -1,0 +1,352 @@
+@media (max-width: 400px) {
+    .container {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+    .hamburger-menu {
+      visibility: visible;
+      width: 420px;
+    }
+    .geeks-header-main {
+        width: 420px;
+        position: fixed;
+        top: 0;
+        backdrop-filter: none;
+        background-color: yellow;
+    }
+    .geeks-header-nav-links {
+        display: none;
+    }
+    .geeks-header-nav-btns {
+        display: none;
+    }
+    .geeks-burger-menu-container {
+        width: 100%;
+    }
+    .hamburg-button-change-lang {
+      top: 0;
+}
+}
+
+/* section one response */
+@media (max-width: 400px) {
+  .geeks-top-info-span {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+  }
+  .geeks-go-it {
+    text-align: center;
+    font-family: Reforma Grotesk Demi;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .geeks-header-section-first img {
+    width: 300px;
+    height: 251px;
+  }
+  .geeks-header-section-first button {
+    width: 354px;
+    height: 71px;
+  }
+  .geeks-orange-span {
+    font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 5px;
+  }
+  .geeks-main-section-img {
+    padding: 0 30px;
+  }
+  .geeks-main-section-img>img {
+    width: 100%;
+
+  }
+  .geeks-main-img-bottom-text {
+    width: 360px;
+    font-family: Reforma Grotesk Demi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 15px;
+  }
+  .geeks-main-info-all {
+    width: 360px;
+  font-family: Onest;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+}
+/* section one response */
+
+/* section two response */
+
+@media (max-width: 400px) {
+  .geeks-main-statistics {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 20px;
+  }
+  .geeks-main-section-three img {
+    width: 207px;
+    height: 228px;
+  }
+}
+
+/* section two response */
+
+/* section three responce */
+
+@media (max-width:400px) {
+  .geeks-feedbacks-cards {
+    display: flex;
+  width: 361px;
+  padding: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  }
+
+  .geeks-feedbacks-desc {
+    width: 300px;
+  font-family: Onest;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+  .geeks-feedbacks-top-rel {
+    width: 300px;
+  }
+  .geeks-feedback-number {
+  font-family: Reforma Grotesk Demi;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .geeks-feedback-select img {
+    width: 19px;
+  }
+  .geeks-feedbacks-cards:nth-child(4n) {
+  margin-bottom: 0px;
+}
+.geeks-feedbacks-cards:nth-child(6n) {
+  margin-bottom: 0px;
+}
+
+}
+
+/* Youtube Shorts Slider response */
+
+@media (min-width:400px) {
+  .yshorts-container {
+    display: none;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .geeks-main-youshorts-cards {
+    display: none;
+  }
+  .yshorts-container {
+    width: 360px;
+  }
+  .sliderYshorts {
+    visibility: visible;
+  }
+
+  .geeks-main-fourth-youshorts {
+    padding: 0 50px;
+  }
+  
+}
+
+/* Youtube Shorts Slider response */
+/* section three responce */
+
+
+/* section fourth response */
+
+@media (max-width: 400px) {
+  .geeks-work-company-cards {
+    padding: 0 30px;
+      display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .geeks-work-company-cards img {
+    width: 130px;
+  }
+}
+
+
+/* section fourth response */
+
+
+/* geeks get course response */
+
+@media (max-width: 400px) {
+  .geeks-course-cards {
+    width: 360px;
+  }
+  .geeks-text-standart {
+  width: 345px;
+  text-align: center;
+  font-family: Onest;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  }
+}
+
+/* geeks get course response */
+
+
+/* geeks sertificate response */
+
+@media (max-width:400px) {
+  .geeks-main-sert-block {
+    display: flex;
+    flex-direction: column;
+  }
+  .geeks-main-sert-block img {
+    width: 360px;
+  }
+  .inputs-consultation-block {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .inputs-consultation-block input, .inputs-consultation-block button {
+    width: 360px;
+  }
+  .geeks-footer-nav-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.geeks-fNav-section-two-media {
+  order: 0;
+}
+
+.geeks-fNav-section-first {
+  order: 1;
+}
+
+.geeks-fNav-section-three-map {
+  order: 2;
+}
+
+.footer-map {
+  width: 360px;
+}
+
+
+}
+/* geeks sertificate response */
+@media (min-width: 400px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+#menu__toggle {
+  opacity: 0;
+}
+#menu__toggle:checked + .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked + .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+#menu__toggle:checked + .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  left: 0 !important;
+}
+.menu__btn {
+  position: fixed;
+  top: 40px;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  transition-duration: .25s;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+.menu__box {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 420px;
+  height: 792px;
+  margin: 0;
+  padding: 80px 0;
+  background-color: white;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+  transition-duration: .25s;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  align-items: center;
+}
+
+.menu__box-links {
+  list-style-type: none;
+}
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  text-decoration: none;
+  transition-duration: .25s;
+  text-align: center;
+  font-family: Reforma Grotesk Demi;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.36px;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+
+.hamburger-menu-bottom-side {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
