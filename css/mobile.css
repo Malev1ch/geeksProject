@@ -12,6 +12,7 @@
         position: fixed;
         top: 0;
         backdrop-filter: none;
+        background-color: yellow;
     }
     .geeks-header-nav-links {
         display: none;
