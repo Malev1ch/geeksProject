@@ -9,6 +9,8 @@
     }
     .geeks-header-main {
         width: 400px;
+        position: fixed;
+        top: 0;
     }
     .geeks-header-nav-links {
         display: none;
