@@ -28,6 +28,90 @@
 }
 }
 
+
+/* top modal windows call me response */
+
+@media (max-width:400px) {
+  .modal {
+    width: 420px;
+    display:none;
+    position:fixed;
+    z-index:1;
+    padding-top:20px;
+    left:0;
+    top:0;
+    height:852px;
+    overflow:auto;
+    background-color:rgba(0,0,0,0.2);
+  }
+  .modal-content {
+  background-color:rgba(255,255,255,0.75);
+  margin:auto;
+  padding:20px;
+  width: 420px;
+  height:700px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  backdrop-filter:blur(15px);
+}
+.modalWindow-text {
+  width: 361px;
+  color: #000;
+  font-family: Onest;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.descr-modalWindow {
+  width: 309px;
+  color: #57585A;
+  font-family: Onest;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.modalWindow-inputs input {
+  display: flex;
+  width: 361px;
+  height: 62px;
+  padding: 20px;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+  font-size: 16px;
+}
+.modalWindow-inputs input::placeholder{
+  color: var(--ui-grey-grey-1, #57585A);
+  text-align: justify;
+  font-family: Onest;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal
+}
+.btn-send-modalWindow {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 182px;
+  flex: 1 0 0;
+  align-self: stretch;
+  color: #000;
+  font-family: Onest;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+}
+
+/* top modal windows call me response */
 /* section one response */
 @media (max-width: 400px) {
   .geeks-top-info-span {
@@ -312,7 +396,7 @@
   top: 0;
   right: -100%;
   width: 420px;
-  height: 852px;
+  height: 792px;
   margin: 0;
   padding: 80px 0;
   background-color: white;
