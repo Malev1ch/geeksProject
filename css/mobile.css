@@ -204,7 +204,7 @@
   .geeks-feedbacks-cards {
     display: flex;
   width: 400px;
-  padding: 30px;
+  padding: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -212,7 +212,7 @@
   }
 
   .geeks-feedbacks-desc {
-    width: 300px;
+    width: 370px;
   font-family: Onest;
   font-size: 16px;
   font-style: normal;
@@ -221,6 +221,8 @@
   }
   .geeks-feedbacks-top-rel {
     width: 300px;
+    gap: 16rem;
+    justify-content: space-between;
   }
   .geeks-feedback-number {
   font-family: Reforma Grotesk Demi;
