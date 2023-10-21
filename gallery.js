@@ -43,3 +43,16 @@ document.addEventListener("DOMContentLoaded", function () {
     updateGallerySlider(currentIndexCool);
   });
 });
+
+// Effect hover geeks-work-company-cards img
+if (window.matchMedia('(max-width: 480px)').matches) {
+  const images = document.querySelectorAll('.geeks-work-company-cards img');
+
+  images.forEach((image) => {
+    image.addEventListener('click', () => {
+      // Добавляем класс "active" при нажатии
+      image.classList.toggle('active');
+    });
+  });
+}
+// Effect hover geeks-work-company-cards img
