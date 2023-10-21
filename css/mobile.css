@@ -329,6 +329,9 @@ align-items: center;
   .geeks-work-company-cards img {
     width: 130px;
   }
+.geeks-work-company-cards img.active {
+    transform: scale(1.2);
+  }
 }
 
 
