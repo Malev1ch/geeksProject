@@ -38,8 +38,7 @@
     display: none;
     position:fixed;
     z-index:1;
-    padding-top:20px;
-    top:0;
+    top:-50px;
     height:850px;
     overflow:auto;
     background-color:rgba(0,0,0,0.2);
