@@ -1,6 +1,6 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
     .container {
-        max-width: 375px;
+        max-width: 480px;
         width: 100%;
         margin: 0 auto;
     }
@@ -32,7 +32,7 @@
 
 /* top modal windows call me response */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .hamburg-menu-modal {
     width: 100%;
     display: none;
@@ -139,7 +139,7 @@ margin-top: 20px;
 
 /* top modal windows call me response */
 /* section one response */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .geeks-top-info-span {
     display: flex;
     flex-direction: column;
@@ -198,7 +198,7 @@ margin-top: 20px;
 
 /* section two response */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .geeks-main-statistics {
     display: flex;
     flex-direction: column;
@@ -215,7 +215,7 @@ margin-top: 20px;
 
 /* section three responce */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .geeks-feedbacks-cards {
     display: flex;
     width: 100%;
@@ -258,14 +258,14 @@ margin-top: 20px;
 
 /* Youtube Shorts Slider response */
 
-@media screen and (min-width:375px) {
+@media screen and (min-width:480px) {
   .yshorts-container {
     display: none;
   }
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .geeks-main-youshorts-cards {
     display: none;
   }
@@ -316,7 +316,7 @@ margin-top: 20px;
 
 /* section fourth response */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .geeks-work-company-cards {
     padding: 0 30px;
       display: flex;
@@ -335,7 +335,7 @@ margin-top: 20px;
 
 /* geeks get course response */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .geeks-course-cards {
     width: 360px;
   }
@@ -352,9 +352,9 @@ margin-top: 20px;
 
 /* geeks get course modal window response */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .my-modal-response {
-    width: 450px;
+    width: 480px;
     left: -50px
   }
   .modal-content-repsonse {
@@ -431,7 +431,7 @@ margin-top: 20px;
 
 /* geeks sertificate response */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .geeks-main-sert-block {
     display: flex;
     flex-direction: column;
@@ -475,7 +475,7 @@ margin-top: 20px;
 
 }
 /* geeks sertificate response */
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 480px) {
   .hamburger-menu {
     display: none;
   }
