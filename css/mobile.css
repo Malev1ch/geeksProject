@@ -462,7 +462,7 @@ align-items: center;
     }
     .gallery-geeks-prev-button, .gallery-geeks-next-button {
         top: 50%;
-        height: 100px;
+        height: 50px;
     }
   .geeks-footer-nav-section {
   display: flex;
