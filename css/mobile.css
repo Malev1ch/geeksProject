@@ -51,8 +51,9 @@
   display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:center;
+  justify-content: unset;
   backdrop-filter:blur(15px);
+      padding-top: 20%;
 }
 .hamburg-menu-modalWindow-content {
   display:flex;
