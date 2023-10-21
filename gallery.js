@@ -50,13 +50,14 @@ if (window.matchMedia('(max-width: 480px)').matches) {
 
   images.forEach((image) => {
     image.addEventListener('click', () => {
-      // Сначала убираем класс "active" у всех картинок
-      images.forEach((img) => {
-        img.classList.remove('active');
-      });
-
-      // Затем добавляем класс "active" к нажатой картинке
-      image.classList.add('active');
+      if (image.classList.contains('active')) {
+        image.classList.remove('active');
+      } else {
+        images.forEach((img) => {
+          img.classList.remove('active');
+        });
+        image.classList.add('active');
+      }
     });
   });
 }
