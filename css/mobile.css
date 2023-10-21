@@ -84,7 +84,7 @@ margin-top: 20px;
 }
 .modalWindow-text-block {
 display: flex;
-align-items: flex-start;
+align-items: center;
 }
 .hamburg-menu-modal-textDesc {
   width: 309px;
