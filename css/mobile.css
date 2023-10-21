@@ -34,7 +34,7 @@
 @media (max-width:480px) {
   .hamburg-menu-modal {
     width: 420px;
-    display: block;
+    display: none;
     position:fixed;
     z-index:1;
     padding-top:20px;
