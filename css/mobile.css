@@ -453,8 +453,8 @@ align-items: center;
     width: 360px;
   }
     .lightbox-content {
-        width: 90%
-        margin: 70% auto
+        width: 90%;
+        margin: 70% auto;
     }
     .gallery-geeks-prev-button, .gallery-geeks-next-button {
         top: 50%;
