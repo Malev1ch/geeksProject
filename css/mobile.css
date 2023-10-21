@@ -82,6 +82,10 @@ font-weight: 500;
 line-height: normal;
 margin-top: 20px;
 }
+.modalWindow-text-block {
+display: flex;
+align-items: flex-start;
+}
 .hamburg-menu-modal-textDesc {
   width: 309px;
   color: #57585A;
