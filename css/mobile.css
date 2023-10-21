@@ -321,20 +321,22 @@ align-items: center;
 @media screen and (max-width: 480px) {
   .geeks-work-company-cards {
     padding: 0 30px;
-      display: flex;
+    display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     height: 100%;
   }
+
   .geeks-work-company-cards img {
     width: 130px;
-      transition: 1s;
+    transition: 1s;
+    display: block !important; /* Добавляем !important, если необходимо */
   }
-.geeks-work-company-cards img.active {
+
+  .geeks-work-company-cards img.active {
     transform: scale(1.2);
   }
 }
-
 
 /* section fourth response */
 
