@@ -335,6 +335,7 @@ align-items: center;
 
   .geeks-work-company-cards img.active {
     transform: scale(1.2);
+      box-shadow: 0 0 20px rgba(252, 233, 0, 1);
   }
 }
 
