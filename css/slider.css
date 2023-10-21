@@ -10,6 +10,7 @@
 .slider {
   display:flex;
   transition:transform 0.5s ease-in-out;
+  gap: 20px;
 }
 .slider img {
   width:100%;
