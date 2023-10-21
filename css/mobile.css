@@ -350,7 +350,7 @@ align-items: center;
   font-weight: 700;
   line-height: normal;
   }
-  .gallery-main-imgG{
+  .gallery-container img{
     width: 350px;
   }
   .gallery-btn-geeks {
