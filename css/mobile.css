@@ -53,6 +53,7 @@
   align-items:center;
   justify-content:center;
   backdrop-filter:blur(15px);
+    gap: 15px;
 }
 .hamburg-menu-modalWindow-content {
   display:flex;
