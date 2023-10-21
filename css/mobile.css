@@ -454,8 +454,6 @@ align-items: center;
   }
     .lightbox {
         top: 100px;
-        height: 700px;
-        width: 90%;
     }
     .lightbox-content {
         width: 100%;
