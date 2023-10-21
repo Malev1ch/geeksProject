@@ -337,7 +337,7 @@ align-items: center;
 
 /* geeks get course response */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
   .geeks-course-cards {
     width: 360px;
   }
@@ -350,6 +350,14 @@ align-items: center;
   font-weight: 700;
   line-height: normal;
   }
+  .gallery-main-imgG{
+    width: 350px;
+  }
+  .gallery-btn-geeks {
+    width: 300px;
+    font-size: 32px;
+  }
+
 }
 
 /* geeks get course modal window response */
