@@ -381,6 +381,7 @@ align-items: center;
     padding: 65px;
     width: 400px !important;
     max-width: none !important;
+      margin: 85px 10px
   }
   .modalWindow-course-content {
     display: flex;
