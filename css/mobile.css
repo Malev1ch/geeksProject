@@ -537,7 +537,8 @@ align-items: center;
     order: 0;
   }
 }
-}
+
+
 #menu__toggle {
   opacity: 0;
 }
