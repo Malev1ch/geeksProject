@@ -508,6 +508,35 @@ align-items: center;
   .hamburger-menu {
     display: none;
   }
+    .modal-contentGalleryCool {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 393px;
+    height: 852px;
+  }
+  .modalGalleryCool {
+    top: 2%;
+  }
+  .prev-buttonGalleryCool, .next-buttonGalleryCool{
+    height: 35px;
+    width: 35px;
+  }
+
+  .gallery-listGallery {
+    order: 1;
+    width: 380px;
+  }
+  .gallery-listGallery ul {
+    display: flex;
+  }
+  .gallery-sliderGallery img {
+    width: 360px;
+  }
+  .gallery-sliderGallery {
+    order: 0;
+  }
+}
 }
 #menu__toggle {
   opacity: 0;
