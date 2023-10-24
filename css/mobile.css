@@ -379,7 +379,8 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     padding: 65px;
-      width: auto;
+      width: 0;
+      max-width:0;
   }
   .modalWindow-course-content {
     display: flex;
