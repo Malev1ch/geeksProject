@@ -2,7 +2,7 @@
   display: none;
   position: fixed;
   z-index: 100;
-  left: 0;
+  left: 10px;
   top: 0;
   width: 100%;
   height: 100%;
@@ -14,9 +14,89 @@
   background-color: #fefefe;
   padding: 2em;
   border: 1px solid #888;
-  width: 80%;
-  max-width: 600px;
-  margin: 84px 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  margin: 84px auto;
+}
+.modal-content-second-border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .modalWindow-course-content {
+  display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -5px;
+
+  }
+
+.borderFirst {
+  display: flex;
+  padding: 10px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  background: var(--ui-black, #000);
+  color: var(--ui-grey-dop-green, #9ABE3D);
+    text-align: center;
+    font-family: Reforma Grotesk Demi;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.48px;
+    text-transform: uppercase;
+
+}
+
+.modal-android-bottom-border {
+  color: var(--white, #FEFEFE);
+  
+}
+
+.modalWindow-course-content img {
+  position: relative;
+  top: -155px;
+  right: -153px;
+}
+
+.what-is-it {
+  color: var(--white, #FEFEFE);
+  font-family: Reforma Grotesk Demi;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  padding: 10px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  background: var(--ui-black, #000);
+  width: 400px;
+}
+
+.what-is-it-android {
+  color: #9ABE3D;
+}
+
+.what-is-it-text-bottom {
+  width: 520px;
+}
+
+.what-is-it-text {
+width: 784px;
+  color: var(--ui-black, #000);
+  /* onest/window_18 */
+  font-family: Onest;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.what-is-ist-h2 {
+  text-align: center;
 }
 .my-close-btn {
   color: #aaa;
