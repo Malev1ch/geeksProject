@@ -56,6 +56,22 @@
   
 }
 
+/* frontend modal top border styles */
+.modal-front, 
+.front {
+  color: var(--ui-yellow, #FCE900);
+}
+.what-is-it>.front {
+  color: var(--ui-yellow, #FCE900);
+}
+
+/* frontend modal top border styles */
+/* backend modal top border styles */
+.modal-back {
+  color: #70ADCA;
+}
+/* backend modal top border styles */
+
 .modalWindow-course-content img {
   position: relative;
   top: -155px;
