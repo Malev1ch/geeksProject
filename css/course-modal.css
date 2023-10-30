@@ -70,8 +70,26 @@
 .modal-back {
   color: #70ADCA;
 }
+.back {
+  color: #70ADCA !important;
+}
 /* backend modal top border styles */
 
+/* UX modal top border styles */
+.modal-ux-top, .ux-border-top {
+  color: #AD8AC4 !important;
+}
+/* UX modal top border styles */
+
+/* Scratch modal top border styles */
+.modal-scratch, .scratch-text {
+  color: #FE3A83 !important;
+}
+/* Scratch modal top border styles */
+
+.own-white {
+  color: white !important;
+}
 .modalWindow-course-content img {
   position: relative;
   top: -155px;
@@ -90,13 +108,17 @@
   align-items: flex-start;
   gap: 10px;
   background: var(--ui-black, #000);
-  width: 400px;
+  width: 407px;
+  justify-content: center;
 }
 
 .what-is-it-android {
   color: #9ABE3D;
 }
 
+.own-what {
+  width: 480px;
+}
 .what-is-it-text-bottom {
   width: 520px;
 }
