@@ -330,7 +330,7 @@ align-items: center;
   .geeks-work-company-cards img {
     width: 130px;
     transition: 1s;
-    display: block !important; /* Добавляем !important, если необходимо */
+    display: block !important;
   }
 
   .geeks-work-company-cards img.active {
@@ -379,15 +379,20 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     padding: 65px;
-    width: 400px !important;
+    width: 450px !important;
     max-width: none !important;
-      margin: 85px 10px
+    margin: 85px 10px !important;
   }
   .modalWindow-course-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
+  }
+  .modalWindow-course-content img {
+    width: 64px !important;
+    top: -110px !important;
+    right: -100px !important;
   }
   .borderFirst {
     width: 165px;
@@ -396,14 +401,15 @@ align-items: center;
     color: #9ABE3D;
     text-align: center;
     font-family: Reforma Grotesk Demi;
-    font-size: 32px;
+    font-size: 32px !important;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     display: flex;
     padding: 10px 40px;
     align-items: flex-start;
-    gap: 10px
+    gap: 10px;
+    justify-content: center;
   }
   .modal-android-bottom-border {
     width: 207px;
@@ -429,19 +435,42 @@ align-items: center;
   font-weight: 400;
   line-height: normal;
   }
+
+.what-is-it-text-bottom {
+    width: 400px !important;
+    display: flex;
+    padding: 10px 40px;
+    text-align: center !important;
+    gap: 10px;
+    background: #000;
+    color: var(--white, #FEFEFE);
+    text-align: center;
+    font-family: Reforma Grotesk Demi;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: normal;
+}
   .what-is-it-android {
     color: #9ABE3D;
   }
   .what-is-it-text {
-    width: 361px;
+    width: 361px !important;
     color: #000;
     font-family: Onest;
-    font-size: 14px;
+    font-size: 14px !important;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-align: center;
   }
+
+.modal-content-second-border img {
+width: 390px;
+}
+.android-modal-js-block-img img{
+display: flex;
+}
     .modal-contentGalleryCool {
     display: flex;
     flex-direction: column;
