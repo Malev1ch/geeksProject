@@ -370,6 +370,9 @@ align-items: center;
 /* geeks get course modal window response */
 
 @media screen and (max-width: 480px) {
+  .my-modal {
+    left: 0 !important;
+  }
   .my-modal-response {
     width: 480px;
     left: -50px
@@ -379,9 +382,9 @@ align-items: center;
     flex-direction: column;
     align-items: center;
     padding: 65px;
-    width: 450px !important;
+    width: 100% !important;
     max-width: none !important;
-    margin: 85px 10px !important;
+    margin: 85px auto !important;
   }
   .modalWindow-course-content {
     display: flex;
