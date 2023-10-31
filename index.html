@@ -123,12 +123,12 @@
               <a href="tel:+996995804080" class="header-links-course" class="modalWindow-text">+996 (995)-80-40-80</a>
             </div>
             <div class="modalWindow-inputs hamburg-menu-modal-window-inputs">
-              <input type="text" placeholder="Имя" />
-              <input type="text" placeholder="Номер телефона" />
+              <input id="input1" type="text" placeholder="Имя" />
+              <input id="input2" type="text" placeholder="Номер телефона" />
             </div>
           </div>
 
-          <button class="btn-send-modalWindow hamburg-menu-modal-btn">Отправить</button>
+          <button id="sendMessage" class="btn-send-modalWindow hamburg-menu-modal-btn">Отправить</button>
           <p class="send-personal-data modalWindow-text">
             Нажимая на кнопку вы соглашаетесь на обработку персональных
             данных
@@ -1111,11 +1111,16 @@
       <span class="geeks-go-it geeks-orange-span geeks-consultation">Получить консультацию и записаться на курс</span>
       <div class="geeks-main-consultation-block">
         <div class="inputs-consultation-block">
-          <input type="text" placeholder="Имя" />
-          <input type="text" placeholder="Номер телефона" />
-          <button class="btn-send-modalWindow btn-consultation">
+          <input id="input1" type="text" placeholder="Имя" />
+          <input id="input2" type="tel" placeholder="Номер телефона" pattern="[0-9]{10}"/>
+          <button id="sendMessage" class="btn-send-modalWindow btn-consultation">
             Отправить
           </button>
+          <script>
+            document.getElementById("input2").addEventListener("input", function (e) {
+              this.value = this.value.replace(/\D/g, "");
+            });
+          </script>
         </div>
         <p class="consultation-block-text">
           Нажимая на кнопку вы соглашаетесь на обработку персональных данных
@@ -1185,6 +1190,7 @@
       </div>
     </div>
   </div>
+
   <script src="/modalWindow.js"></script>
   <script src="/slider.js"></script>
   <script src="/main.js"></script>
