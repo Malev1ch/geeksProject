@@ -18,5 +18,12 @@ function changeText() {
     currentIndex = (currentIndex + 1) % texts.length;
 }
 
+spanRefs[0].textContent = texts[currentIndex];
+spanRefs[0].style.color = styles[currentIndex].color;
+spanRefs[0].style.fontSize = styles[currentIndex].fontSize;
+
 // Вызываем функцию для изменения текста и стилей с интервалом времени
-setInterval(changeText, 3000);
+setTimeout(function () {
+    currentIndex = 1; // Начинаем смену текста со второго элемента
+    setInterval(changeText, 1200); // 3000 миллисекунд = 3 секунды
+}, 1200);
