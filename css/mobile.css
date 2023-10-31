@@ -357,9 +357,14 @@ align-items: center;
   font-weight: 700;
   line-height: normal;
   }
-  .gallery-container img{
-    width: 350px;
-  }
+    .background-image {
+      display: none;
+    }
+  
+    .mobile-image {
+      display: block;
+      width: 450px;
+    }
   .gallery-btn-geeks {
     width: 300px;
     font-size: 32px;
@@ -567,10 +572,13 @@ display: flex;
 
 }
 /* geeks sertificate response */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 481px) {
   .hamburger-menu {
     display: none;
   }
+    .mobile-image {
+      display: none;
+    }
 }
 
 
