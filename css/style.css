@@ -25,6 +25,36 @@
   background-color:transparent;
   color:black;
 }
+
+.geeks-it-profession {
+  background-color: transparent;
+  color: var(--ui-black, #000);
+  width: 730.528px;
+  font-family: Onest;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.img-geeks-img-span {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.img-geeks-img-span svg {
+  position: absolute;
+  margin-top: 35px;
+  right: 192px;
+}
+.span-ref {
+  width: 210px;
+  height: 55px;
+  flex-shrink: 0;
+  background: var(--ui-black, #000);
+  font-family: Reforma Grotesk Demi;
+  text-align: center;
+}
 .btn-call-main {
   width:1200px;
   color: #FCE900;
