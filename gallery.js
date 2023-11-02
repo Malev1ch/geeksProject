@@ -44,27 +44,20 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// Effect hover geeks-work-company-cards img
 if (window.matchMedia('(max-width: 480px)').matches) {
   const images = document.querySelectorAll('.geeks-work-company-cards img');
 
   images.forEach((image) => {
     image.addEventListener('click', () => {
-      // Проверяем, есть ли у картинки класс "active"
       if (image.classList.contains('active')) {
-        // Если есть, удаляем класс "active" для возврата в исходное состояние
         image.classList.remove('active');
       } else {
-        // Если нет, добавляем класс "active" для увеличения
-        // Сначала убираем класс "active" у всех картинок
         images.forEach((img) => {
           img.classList.remove('active');
         });
 
-        // Затем добавляем класс "active" к нажатой картинке
         image.classList.add('active');
       }
     });
   });
 }
-// Effect hover geeks-work-company-cards img
