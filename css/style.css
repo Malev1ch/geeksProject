@@ -622,6 +622,12 @@ font-family:Onest;
   position: relative;
 }
 
+@media screen and (max-width: 480px) {
+  .modal-contentSendMessage {
+    margin: 30% auto;
+  }
+  
+}
 .closeSendMessageModal {
   position: absolute;
   top: 0;
