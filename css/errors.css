@@ -5,6 +5,8 @@
     flex-direction: column;
     background-color: yellow;
     gap: 30px;
+    padding: 10% 0;
+
 }
 
 .error-404 {
@@ -14,10 +16,59 @@
 
 .error-page-not-fount {
     color: black;
+    text-align: center;
+    font-family: Onest;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.error-page-btnMain {
+
+.error-page-btn {
     background-color: black;
     color: yellow;
-    width: 1300px;
-    height: 50px;
+    display: flex;
+    width: 1320px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 42px;
+    font-family: Reforma Grotesk Demi;
+    line-height: normal;
+}
+
+.error-page-btn a {
+    text-decoration: none;
+    color: yellow;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 480px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .error-page-btn {
+        width: 354px;
+    }
+
+    .error-404 {
+        gap: 10px;
+
+    }
+
+    .error-404 img {
+        width: 95px;
+        height: 230px;
+    }
+
+    .error-page-not-fount {
+        font-size: 22px;
+    }
+
+    .error-page-404 {
+        padding: 30% 0;
+    }
 }
