@@ -24,3 +24,15 @@ const chatId = '555248828';
                 }
             };
         });
+
+// 
+document.getElementById('sendMessage').addEventListener('click', function () {
+    var modal = document.getElementById('sendMessageModal');
+    modal.style.display = 'block';
+});
+
+document.getElementById('closeModalSendMessageModal').addEventListener('click', function () {
+    var modal = document.getElementById('sendMessageModal');
+    modal.style.display = 'none';
+});
+// 
