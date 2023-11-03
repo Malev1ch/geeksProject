@@ -513,6 +513,7 @@ display: flex;
   }
   .modalGalleryCool {
     top: 7%;
+    height: 100%;
   }
   .prev-buttonGalleryCool, .next-buttonGalleryCool{
     height: 35px;
@@ -532,6 +533,9 @@ display: flex;
   }
   .gallery-sliderGallery {
     order: 0;
+  }
+  .btn-close-Gallery-cool {
+    height: 30px;
   }
 }
 /* geeks get course modal window response */
