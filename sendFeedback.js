@@ -35,4 +35,16 @@ document.getElementById('closeModalSendMessageModal').addEventListener('click', 
     var modal = document.getElementById('sendMessageModal');
     modal.style.display = 'none';
 });
-// 
+//
+
+// auto close #sendMessage modal window after N sec
+// auto close #sendMessage modal window after N sec
+document.getElementById('sendMessage').addEventListener('click', function () {
+    var modal = document.getElementById('sendMessageModal');
+    modal.style.display = 'block';
+
+    setTimeout(function () {
+        modal.style.display = 'none';
+    }, 3000);
+});
+// auto close #sendMessage modal window after N sec
