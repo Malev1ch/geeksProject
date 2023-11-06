@@ -305,8 +305,14 @@ font-family:Onest;
 .geeks-work-company-cards img {
   flex-basis:16%;
   border-radius: 50%;
+  transition: 1s, box-shadow 1s; 
+  border-radius: 50%;
   display: block; 
-  
+
+}
+.geeks-work-company-cards img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgba(252, 233, 0, 1);
 }
 /* section fourth work company */
 
